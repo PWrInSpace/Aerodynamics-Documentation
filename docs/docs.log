@@ -1,0 +1,1335 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10) (preloaded format=pdflatex 2024.3.7)  1 APR 2024 00:12
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**/home/prlpnrpph512/Documents/PWRINSPACE/ACS-CFD-Documentation/docs/docs.tex
+(/home/prlpnrpph512/Documents/PWRINSPACE/ACS-CFD-Documentation/docs/docs.tex
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2024-02-20>
+(/home/prlpnrpph512/.miktex/texmfs/install/tex/latex/base/report.cls
+Document Class: report 2023/05/17 v1.4n Standard LaTeX document class
+(/home/prlpnrpph512/.miktex/texmfs/install/tex/latex/base/size10.clo
+File: size10.clo 2023/05/17 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count188
+\c@chapter=\count189
+\c@section=\count190
+\c@subsection=\count191
+\c@subsubsection=\count192
+\c@paragraph=\count193
+\c@subparagraph=\count194
+\c@figure=\count195
+\c@table=\count196
+\abovecaptionskip=\skip48
+\belowcaptionskip=\skip49
+\bibindent=\dimen140
+) (/home/prlpnrpph512/.miktex/texmfs/install/tex/latex/base/fontenc.sty
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
+) (/home/prlpnrpph512/.miktex/texmfs/install/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+ (/home/prlpnrpph512/.miktex/texmfs/install/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\@emptytoks=\toks17
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)) (/home/prlpnrpph512/.miktex/texmfs/install/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2024-01-20 v7.01h Hypertext links for LaTeX
+ (/home/prlpnrpph512/.miktex/texmfs/install/tex/generic/iftex/iftex.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
+) (/home/prlpnrpph512/.miktex/texmfs/install/tex/latex/graphics/keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks18
+) (/home/prlpnrpph512/.miktex/texmfs/install/tex/latex/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
+) (/home/prlpnrpph512/.miktex/texmfs/install/tex/generic/kvdefinekeys/kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+) (/home/prlpnrpph512/.miktex/texmfs/install/tex/generic/pdfescape/pdfescape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+ (/home/prlpnrpph512/.miktex/texmfs/install/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
+) (/home/prlpnrpph512/.miktex/texmfs/install/tex/generic/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO)
+ (/home/prlpnrpph512/.miktex/texmfs/install/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)) (/home/prlpnrpph512/.miktex/texmfs/install/tex/latex/hycolor/hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+) (/home/prlpnrpph512/.miktex/texmfs/install/tex/latex/auxhook/auxhook.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+) (/home/prlpnrpph512/.miktex/texmfs/install/tex/latex/hyperref/nameref.sty
+Package: nameref 2023-11-26 v2.56 Cross-referencing by name of section
+ (/home/prlpnrpph512/.miktex/texmfs/install/tex/latex/refcount/refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+) (/home/prlpnrpph512/.miktex/texmfs/install/tex/generic/gettitlestring/gettitlestring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+ (/home/prlpnrpph512/.miktex/texmfs/install/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+))
+\c@section@level=\count197
+) (/home/prlpnrpph512/.miktex/texmfs/install/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count198
+)
+\@linkdim=\dimen141
+\Hy@linkcounter=\count199
+\Hy@pagecounter=\count266
+ (/home/prlpnrpph512/.miktex/texmfs/install/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2024-01-20 v7.01h Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+) (/home/prlpnrpph512/.miktex/texmfs/install/tex/generic/intcalc/intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+\Hy@SavedSpaceFactor=\count267
+ (/home/prlpnrpph512/.miktex/texmfs/install/tex/latex/hyperref/puenc.def
+File: puenc.def 2024-01-20 v7.01h Hyperref: PDF Unicode definition (HO)
+Now handling font encoding PU ...
+... no UTF-8 mapping file for font encoding PU
+)
+Package hyperref Info: Hyper figures OFF on input line 4179.
+Package hyperref Info: Link nesting OFF on input line 4184.
+Package hyperref Info: Hyper index ON on input line 4187.
+Package hyperref Info: Plain pages OFF on input line 4194.
+Package hyperref Info: Backreferencing OFF on input line 4199.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4446.
+\c@Hy@tempcnt=\count268
+ (/home/prlpnrpph512/.miktex/texmfs/install/tex/latex/url/url.sty
+\Urlmuskip=\muskip16
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 4784.
+\XeTeXLinkMargin=\dimen142
+ (/home/prlpnrpph512/.miktex/texmfs/install/tex/generic/bitset/bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+ (/home/prlpnrpph512/.miktex/texmfs/install/tex/generic/bigintcalc/bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO)
+))
+\Fld@menulength=\count269
+\Field@Width=\dimen143
+\Fld@charsize=\dimen144
+Package hyperref Info: Hyper figures OFF on input line 6063.
+Package hyperref Info: Link nesting OFF on input line 6068.
+Package hyperref Info: Hyper index ON on input line 6071.
+Package hyperref Info: backreferencing OFF on input line 6078.
+Package hyperref Info: Link coloring OFF on input line 6083.
+Package hyperref Info: Link coloring with OCG OFF on input line 6088.
+Package hyperref Info: PDF/A mode OFF on input line 6093.
+ (/home/prlpnrpph512/.miktex/texmfs/install/tex/latex/base/atbegshi-ltx.sty
+Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
+package with kernel methods
+)
+\Hy@abspage=\count270
+\c@Item=\count271
+\c@Hfootnote=\count272
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+ (/home/prlpnrpph512/.miktex/texmfs/install/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2024-01-20 v7.01h Hyperref driver for pdfTeX
+ (/home/prlpnrpph512/.miktex/texmfs/install/tex/latex/base/atveryend-ltx.sty
+Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend package
+with kernel methods
+)
+\Fld@listcount=\count273
+\c@bookmark@seq@number=\count274
+ (/home/prlpnrpph512/.miktex/texmfs/install/tex/latex/rerunfilecheck/rerunfilecheck.sty
+Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
+ (/home/prlpnrpph512/.miktex/texmfs/install/tex/generic/uniquecounter/uniquecounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 285.
+)
+\Hy@SectionHShift=\skip50
+) (/home/prlpnrpph512/.miktex/texmfs/install/tex/latex/physics/physics.sty
+Package: physics 
+ (/home/prlpnrpph512/.miktex/texmfs/install/tex/latex/l3packages/xparse/xparse.sty (/home/prlpnrpph512/.miktex/texmfs/install/tex/latex/l3kernel/expl3.sty
+Package: expl3 2024-02-20 L3 programming layer (loader) 
+ (/home/prlpnrpph512/.miktex/texmfs/install/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2024-02-20 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count275
+\l__pdf_internal_box=\box51
+))
+Package: xparse 2024-02-18 L3 Experimental document command parser
+) (/home/prlpnrpph512/.miktex/texmfs/install/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2023/05/13 v2.17o AMS math features
+\@mathmargin=\skip51
+
+For additional information on amsmath, use the `?' option.
+(/home/prlpnrpph512/.miktex/texmfs/install/tex/latex/amsmath/amstext.sty
+Package: amstext 2021/08/26 v2.01 AMS text
+ (/home/prlpnrpph512/.miktex/texmfs/install/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks19
+\ex@=\dimen145
+)) (/home/prlpnrpph512/.miktex/texmfs/install/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen146
+) (/home/prlpnrpph512/.miktex/texmfs/install/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2022/04/08 v2.04 operator names
+)
+\inf@bad=\count276
+LaTeX Info: Redefining \frac on input line 234.
+\uproot@=\count277
+\leftroot@=\count278
+LaTeX Info: Redefining \overline on input line 399.
+LaTeX Info: Redefining \colon on input line 410.
+\classnum@=\count279
+\DOTSCASE@=\count280
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
+\Mathstrutbox@=\box52
+\strutbox@=\box53
+LaTeX Info: Redefining \big on input line 722.
+LaTeX Info: Redefining \Big on input line 723.
+LaTeX Info: Redefining \bigg on input line 724.
+LaTeX Info: Redefining \Bigg on input line 725.
+\big@size=\dimen147
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+\macc@depth=\count281
+LaTeX Info: Redefining \bmod on input line 905.
+LaTeX Info: Redefining \pmod on input line 910.
+LaTeX Info: Redefining \smash on input line 940.
+LaTeX Info: Redefining \relbar on input line 970.
+LaTeX Info: Redefining \Relbar on input line 971.
+\c@MaxMatrixCols=\count282
+\dotsspace@=\muskip17
+\c@parentequation=\count283
+\dspbrk@lvl=\count284
+\tag@help=\toks20
+\row@=\count285
+\column@=\count286
+\maxfields@=\count287
+\andhelp@=\toks21
+\eqnshift@=\dimen148
+\alignsep@=\dimen149
+\tagshift@=\dimen150
+\tagwidth@=\dimen151
+\totwidth@=\dimen152
+\lineht@=\dimen153
+\@envbody=\toks22
+\multlinegap=\skip52
+\multlinetaggap=\skip53
+\mathdisplay@stack=\toks23
+LaTeX Info: Redefining \[ on input line 2953.
+LaTeX Info: Redefining \] on input line 2954.
+)) (/home/prlpnrpph512/.miktex/texmfs/install/tex/latex/comment/comment.sty
+\CommentStream=\write3
+ Excluding comment 'comment') (/home/prlpnrpph512/.miktex/texmfs/install/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count288
+\float@exts=\toks24
+\float@box=\box54
+\@float@everytoks=\toks25
+\@floatcapt=\box55
+) (/home/prlpnrpph512/.miktex/texmfs/install/tex/latex/graphics/graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+ (/home/prlpnrpph512/.miktex/texmfs/install/tex/latex/graphics/graphics.sty
+Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
+ (/home/prlpnrpph512/.miktex/texmfs/install/tex/latex/graphics/trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+) (/home/prlpnrpph512/.miktex/texmfs/install/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 107.
+ (/home/prlpnrpph512/.miktex/texmfs/install/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen154
+\Gin@req@width=\dimen155
+) (/home/prlpnrpph512/.miktex/texmfs/install/tex/latex/geometry/geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+ (/home/prlpnrpph512/.miktex/texmfs/install/tex/generic/iftex/ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+)
+\Gm@cnth=\count289
+\Gm@cntv=\count290
+\c@Gm@tempcnt=\count291
+\Gm@bindingoffset=\dimen156
+\Gm@wd@mp=\dimen157
+\Gm@odd@mp=\dimen158
+\Gm@even@mp=\dimen159
+\Gm@layoutwidth=\dimen160
+\Gm@layoutheight=\dimen161
+\Gm@layouthoffset=\dimen162
+\Gm@layoutvoffset=\dimen163
+\Gm@dimlist=\toks26
+ (/home/prlpnrpph512/.miktex/texmfs/install/tex/latex/geometry/geometry.cfg)) (/home/prlpnrpph512/.miktex/texmfs/install/tex/latex/nomencl/nomencl.sty
+Package: nomencl 2021/11/10 v5.6 Nomenclature package
+ (/home/prlpnrpph512/.miktex/texmfs/install/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
+ (/home/prlpnrpph512/.miktex/texmfs/install/tex/generic/xkeyval/xkeyval.tex (/home/prlpnrpph512/.miktex/texmfs/install/tex/generic/xkeyval/xkvutils.tex
+\XKV@toks=\toks27
+\XKV@tempa@toks=\toks28
+)
+\XKV@depth=\count292
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+)) (/home/prlpnrpph512/.miktex/texmfs/install/tex/latex/base/ifthen.sty
+Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
+) (/home/prlpnrpph512/.miktex/texmfs/install/tex/latex/koma-script/tocbasic.sty
+Package: tocbasic 2023/07/07 v3.41 KOMA-Script package (handling toc-files)
+ (/home/prlpnrpph512/.miktex/texmfs/install/tex/latex/koma-script/scrbase.sty
+Package: scrbase 2023/07/07 v3.41 KOMA-Script package (KOMA-Script-independent basics and keyval usage)
+ (/home/prlpnrpph512/.miktex/texmfs/install/tex/latex/koma-script/scrlfile.sty
+Package: scrlfile 2023/07/07 v3.41 KOMA-Script package (file load hooks)
+ (/home/prlpnrpph512/.miktex/texmfs/install/tex/latex/koma-script/scrlfile-hook.sty
+Package: scrlfile-hook 2023/07/07 v3.41 KOMA-Script package (using LaTeX hooks)
+ (/home/prlpnrpph512/.miktex/texmfs/install/tex/latex/koma-script/scrlogo.sty
+Package: scrlogo 2023/07/07 v3.41 KOMA-Script package (logo)
+)))
+Applying: [2021/05/01] Usage of raw or classic option list on input line 252.
+Already applied: [0000/00/00] Usage of raw or classic option list on input line 368.
+)
+\scr@dte@tocline@numberwidth=\skip54
+\scr@dte@tocline@numbox=\box56
+)
+Package tocbasic Info: omitting babel extension for `nlo'
+(tocbasic)             because of missing \bbl@set@language on input line 187.
+Package tocbasic Info: omitting babel extension for `nls'
+(tocbasic)             because of missing \bbl@set@language on input line 188.
+\nomlabelwidth=\dimen164
+\nom@tempdim=\dimen165
+\nomitemsep=\skip55
+)
+\@nomenclaturefile=\write4
+\openout4 = `docs.nlo'.
+
+Package nomencl Info: Writing nomenclature file docs.nlo on input line 15.
+Package hyperref Info: Option `colorlinks' set `true' on input line 23.
+ (docs.aux)
+\openout1 = `docs.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+ (/home/prlpnrpph512/.miktex/texmfs/install/tex/latex/graphics/color.sty
+Package: color 2022/01/06 v1.3d Standard LaTeX Color (DPC)
+ (/home/prlpnrpph512/.miktex/texmfs/install/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: pdftex.def on input line 149.
+ (/home/prlpnrpph512/.miktex/texmfs/install/tex/latex/graphics/mathcolor.ltx))
+Package hyperref Info: Link coloring ON on input line 30.
+ (docs.out) (docs.out)
+\@outlinefile=\write5
+\openout5 = `docs.out'.
+
+ (/home/prlpnrpph512/.miktex/texmfs/install/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count293
+\scratchdimen=\dimen166
+\scratchbox=\box57
+\nofMPsegments=\count294
+\nofMParguments=\count295
+\everyMPshowfont=\toks29
+\MPscratchCnt=\count296
+\MPscratchDim=\dimen167
+\MPnumerator=\count297
+\makeMPintoPDFobject=\count298
+\everyMPtoPDFconversion=\toks30
+) (/home/prlpnrpph512/.miktex/texmfs/install/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
+ (/home/prlpnrpph512/.miktex/texmfs/install/tex/latex/00miktex/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
+))
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(71.13188pt, 472.03123pt, 71.13188pt)
+* v-part:(T,H,B)=(71.13188pt, 652.70622pt, 71.13188pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=472.03123pt
+* \textheight=652.70622pt
+* \oddsidemargin=-1.1381pt
+* \evensidemargin=-1.1381pt
+* \topmargin=-38.1381pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=10.0pt
+* \footskip=30.0pt
+* \marginparwidth=65.0pt
+* \marginparsep=11.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+LaTeX Font Info:    Trying to load font information for U+msa on input line 32.
+(/home/prlpnrpph512/.miktex/texmfs/install/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 32.
+ (/home/prlpnrpph512/.miktex/texmfs/install/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+) [1
+
+{/home/prlpnrpph512/.miktex/texmfs/data/fonts/map/pdftex/pdftex.map}] (docs.toc)
+\tf@toc=\write6
+\openout6 = `docs.toc'.
+
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.35 \chapter
+             {Introduction} [1
+
+]
+Chapter 1.
+(chapters/introduction.tex
+Underfull \hbox (badness 10000) in paragraph at lines 10--14
+
+ []
+
+)
+Underfull \hbox (badness 10000) in paragraph at lines 19--37
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 19--37
+
+ []
+
+[2
+
+]
+Chapter 2.
+(chapters/solidworks.tex
+Underfull \hbox (badness 10000) in paragraph at lines 11--14
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 20--29
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 20--29
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 20--29
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 20--29
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 20--29
+
+ []
+
+<../img/FirstImages00Sternik15/HelloWorldSimulation2Mesh.png, id=157, 1053.9375pt x 461.47406pt>
+File: ../img/FirstImages00Sternik15/HelloWorldSimulation2Mesh.png Graphic file (type png)
+<use ../img/FirstImages00Sternik15/HelloWorldSimulation2Mesh.png>
+Package pdftex.def Info: ../img/FirstImages00Sternik15/HelloWorldSimulation2Mesh.png  used on input line 36.
+(pdftex.def)             Requested size: 472.03123pt x 206.68263pt.
+[3
+
+]
+<../img/FirstImages00Sternik15/HelloWorldSimulation2MeshL.png, id=163, 1053.9375pt x 461.47406pt>
+File: ../img/FirstImages00Sternik15/HelloWorldSimulation2MeshL.png Graphic file (type png)
+<use ../img/FirstImages00Sternik15/HelloWorldSimulation2MeshL.png>
+Package pdftex.def Info: ../img/FirstImages00Sternik15/HelloWorldSimulation2MeshL.png  used on input line 43.
+(pdftex.def)             Requested size: 472.03123pt x 206.68263pt.
+<../img/FirstImages00Sternik15/HelloWorldSimulation2Speed.png, id=164, 1053.9375pt x 461.47406pt>
+File: ../img/FirstImages00Sternik15/HelloWorldSimulation2Speed.png Graphic file (type png)
+<use ../img/FirstImages00Sternik15/HelloWorldSimulation2Speed.png>
+Package pdftex.def Info: ../img/FirstImages00Sternik15/HelloWorldSimulation2Speed.png  used on input line 49.
+(pdftex.def)             Requested size: 472.03123pt x 206.68263pt.
+ [4
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2.1}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.52 
+     
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2.2}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.52 
+      <../img/FirstImages00Sternik15/HelloWorldSimulation2Mesh.png> <../img/FirstImages00Sternik15/HelloWorldSimulation2MeshL.png>]
+<../img/FirstImages00Sternik15/HelloWorldSimulation2SpeedL.png, id=171, 1053.9375pt x 461.47406pt>
+File: ../img/FirstImages00Sternik15/HelloWorldSimulation2SpeedL.png Graphic file (type png)
+<use ../img/FirstImages00Sternik15/HelloWorldSimulation2SpeedL.png>
+Package pdftex.def Info: ../img/FirstImages00Sternik15/HelloWorldSimulation2SpeedL.png  used on input line 56.
+(pdftex.def)             Requested size: 472.03123pt x 206.68263pt.
+<../img/FirstImages00Sternik15/Animation2.png, id=172, 1286.8075pt x 811.03pt>
+File: ../img/FirstImages00Sternik15/Animation2.png Graphic file (type png)
+<use ../img/FirstImages00Sternik15/Animation2.png>
+Package pdftex.def Info: ../img/FirstImages00Sternik15/Animation2.png  used on input line 63.
+(pdftex.def)             Requested size: 377.62642pt x 238.00186pt.
+ [5
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2.3}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.66 
+     
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2.4}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.66 
+      <../img/FirstImages00Sternik15/HelloWorldSimulation2Speed.png> <../img/FirstImages00Sternik15/HelloWorldSimulation2SpeedL.png>]
+<../img/FirstImages00Sternik15/strzalki1.png, id=180, 983.675pt x 862.22125pt>
+File: ../img/FirstImages00Sternik15/strzalki1.png Graphic file (type png)
+<use ../img/FirstImages00Sternik15/strzalki1.png>
+Package pdftex.def Info: ../img/FirstImages00Sternik15/strzalki1.png  used on input line 69.
+(pdftex.def)             Requested size: 377.62642pt x 331.00237pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 74--77
+
+ []
+
+[6
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2.5}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.77 
+     
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2.6}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.77 
+      <../img/FirstImages00Sternik15/Animation2.png> <../img/FirstImages00Sternik15/strzalki1.png>]
+Overfull \hbox (6.20384pt too wide) in paragraph at lines 79--84
+\T1/cmr/m/n/10 This one was done for (0, 30) degrees for both canards. You can find results in the CFDPiotrekManfredACS.xlsx
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--84
+
+ []
+
+<../img/PiotrekManfred0-30/torqueX.png, id=190, 808.52063pt x 610.53094pt>
+File: ../img/PiotrekManfred0-30/torqueX.png Graphic file (type png)
+<use ../img/PiotrekManfred0-30/torqueX.png>
+Package pdftex.def Info: ../img/PiotrekManfred0-30/torqueX.png  used on input line 87.
+(pdftex.def)             Requested size: 472.03123pt x 356.44649pt.
+<../img/PiotrekManfred0-30/torqueY.png, id=191, 809.27344pt x 609.02531pt>
+File: ../img/PiotrekManfred0-30/torqueY.png Graphic file (type png)
+<use ../img/PiotrekManfred0-30/torqueY.png>
+Package pdftex.def Info: ../img/PiotrekManfred0-30/torqueY.png  used on input line 93.
+(pdftex.def)             Requested size: 377.62642pt x 284.18819pt.
+[7
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2.7}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.96 
+      <../img/PiotrekManfred0-30/torqueX.png>]
+<../img/PiotrekManfred0-30/torqueZ.png, id=198, 824.32968pt x 621.07031pt>
+File: ../img/PiotrekManfred0-30/torqueZ.png Graphic file (type png)
+<use ../img/PiotrekManfred0-30/torqueZ.png>
+Package pdftex.def Info: ../img/PiotrekManfred0-30/torqueZ.png  used on input line 99.
+(pdftex.def)             Requested size: 377.62642pt x 284.51122pt.
+<../img/PiotrekManfred0-30/forceY.png, id=199, 818.30719pt x 604.50844pt>
+File: ../img/PiotrekManfred0-30/forceY.png Graphic file (type png)
+<use ../img/PiotrekManfred0-30/forceY.png>
+Package pdftex.def Info: ../img/PiotrekManfred0-30/forceY.png  used on input line 105.
+(pdftex.def)             Requested size: 377.62642pt x 278.97198pt.
+ [8
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2.8}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.108 T
+       he important take away from this is that we were able to generate hea...
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2.9}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.108 T
+       he important take away from this is that we were able to generate hea... <../img/PiotrekManfred0-30/torqueY.png> <../img/PiotrekManfred0-30/torqueZ.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 108--113
+
+ []
+
+[9
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2.10}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.113 \newpage
+               <../img/PiotrekManfred0-30/forceY.png>]
+<../img/Manfred0-30/torqueX.png, id=214, 1142.2675pt x 873.2625pt>
+File: ../img/Manfred0-30/torqueX.png Graphic file (type png)
+<use ../img/Manfred0-30/torqueX.png>
+Package pdftex.def Info: ../img/Manfred0-30/torqueX.png  used on input line 127.
+(pdftex.def)             Requested size: 377.62642pt x 288.69717pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 115--129
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 115--129
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 115--129
+
+ []
+
+<../img/Manfred0-30/torqueY.png, id=215, 1155.31625pt x 863.225pt>
+File: ../img/Manfred0-30/torqueY.png Graphic file (type png)
+<use ../img/Manfred0-30/torqueY.png>
+Package pdftex.def Info: ../img/Manfred0-30/torqueY.png  used on input line 133.
+(pdftex.def)             Requested size: 377.62642pt x 282.15175pt.
+[10
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2.11}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.136 
+       <../img/Manfred0-30/torqueX.png>]
+<../img/Manfred0-30/torqueZ.png, id=222, 1135.24126pt x 869.2475pt>
+File: ../img/Manfred0-30/torqueZ.png Graphic file (type png)
+<use ../img/Manfred0-30/torqueZ.png>
+Package pdftex.def Info: ../img/Manfred0-30/torqueZ.png  used on input line 139.
+(pdftex.def)             Requested size: 377.62642pt x 289.14717pt.
+<../img/Manfred0-30/forceY.png, id=223, 1155.31625pt x 884.30376pt>
+File: ../img/Manfred0-30/forceY.png Graphic file (type png)
+<use ../img/Manfred0-30/forceY.png>
+Package pdftex.def Info: ../img/Manfred0-30/forceY.png  used on input line 145.
+(pdftex.def)             Requested size: 283.22162pt x 216.77101pt.
+ [11
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2.12}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.148 
+      
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2.13}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.148 
+       <../img/Manfred0-30/torqueY.png> <../img/Manfred0-30/torqueZ.png>]
+<../img/Manfred0-30/vs.png, id=232, 873.2625pt x 603.25375pt>
+File: ../img/Manfred0-30/vs.png Graphic file (type png)
+<use ../img/Manfred0-30/vs.png>
+Package pdftex.def Info: ../img/Manfred0-30/vs.png  used on input line 151.
+(pdftex.def)             Requested size: 377.62642pt x 260.86684pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 154--157
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 159--163
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 159--163
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 159--163
+
+ []
+
+[12
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2.14}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.163 
+      
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2.15}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.163 
+       <../img/Manfred0-30/forceY.png> <../img/Manfred0-30/vs.png>]
+<../img/Manfred-30-30/torqueX.png, id=242, 1217.54875pt x 567.11874pt>
+File: ../img/Manfred-30-30/torqueX.png Graphic file (type png)
+<use ../img/Manfred-30-30/torqueX.png>
+Package pdftex.def Info: ../img/Manfred-30-30/torqueX.png  used on input line 166.
+(pdftex.def)             Requested size: 472.03123pt x 219.86873pt.
+<../img/Manfred-30-30/torqueY.png, id=243, 1225.57875pt x 518.93875pt>
+File: ../img/Manfred-30-30/torqueY.png Graphic file (type png)
+<use ../img/Manfred-30-30/torqueY.png>
+Package pdftex.def Info: ../img/Manfred-30-30/torqueY.png  used on input line 172.
+(pdftex.def)             Requested size: 472.03123pt x 199.86726pt.
+<../img/Manfred-30-30/torqueZ.png, id=244, 1297.84875pt x 567.11874pt>
+File: ../img/Manfred-30-30/torqueZ.png Graphic file (type png)
+<use ../img/Manfred-30-30/torqueZ.png>
+Package pdftex.def Info: ../img/Manfred-30-30/torqueZ.png  used on input line 178.
+(pdftex.def)             Requested size: 472.03123pt x 206.25674pt.
+ [13
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2.16}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.181 
+      
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2.17}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.181 
+       <../img/Manfred-30-30/torqueX.png> <../img/Manfred-30-30/torqueY.png>]
+<../img/Manfred-30-30/forceX.png, id=253, 1227.58624pt x 563.10374pt>
+File: ../img/Manfred-30-30/forceX.png Graphic file (type png)
+<use ../img/Manfred-30-30/forceX.png>
+Package pdftex.def Info: ../img/Manfred-30-30/forceX.png  used on input line 184.
+(pdftex.def)             Requested size: 472.03123pt x 216.52495pt.
+<../img/Manfred-30-30/forceY.png, id=254, 1230.5975pt x 554.07pt>
+File: ../img/Manfred-30-30/forceY.png Graphic file (type png)
+<use ../img/Manfred-30-30/forceY.png>
+Package pdftex.def Info: ../img/Manfred-30-30/forceY.png  used on input line 190.
+(pdftex.def)             Requested size: 472.03123pt x 212.52711pt.
+ [14
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2.18}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.193 
+      
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2.19}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.193 
+       <../img/Manfred-30-30/torqueZ.png> <../img/Manfred-30-30/forceX.png>]
+<../img/Manfred-30-30/forceZ.png, id=263, 1222.5675pt x 563.10374pt>
+File: ../img/Manfred-30-30/forceZ.png Graphic file (type png)
+<use ../img/Manfred-30-30/forceZ.png>
+Package pdftex.def Info: ../img/Manfred-30-30/forceZ.png  used on input line 196.
+(pdftex.def)             Requested size: 472.03123pt x 217.40996pt.
+<../img/Manfred-30-30/invX.png, id=264, 844.15375pt x 840.13875pt>
+File: ../img/Manfred-30-30/invX.png Graphic file (type png)
+<use ../img/Manfred-30-30/invX.png>
+Package pdftex.def Info: ../img/Manfred-30-30/invX.png  used on input line 202.
+(pdftex.def)             Requested size: 472.03123pt x 469.79506pt.
+ [15
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2.20}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.205 
+      
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2.21}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.205 
+       <../img/Manfred-30-30/forceY.png> <../img/Manfred-30-30/forceZ.png>]
+<../img/Manfred-30-30/invY.png, id=273, 1044.90375pt x 1056.94875pt>
+File: ../img/Manfred-30-30/invY.png Graphic file (type png)
+<use ../img/Manfred-30-30/invY.png>
+Package pdftex.def Info: ../img/Manfred-30-30/invY.png  used on input line 208.
+(pdftex.def)             Requested size: 472.03123pt x 477.47723pt.
+ [16
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2.22}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.211 
+       <../img/Manfred-30-30/invX.png>]
+<../img/Manfred-30-30/invZ.png, id=280, 876.27374pt x 832.10875pt>
+File: ../img/Manfred-30-30/invZ.png Graphic file (type png)
+<use ../img/Manfred-30-30/invZ.png>
+Package pdftex.def Info: ../img/Manfred-30-30/invZ.png  used on input line 214.
+(pdftex.def)             Requested size: 472.03123pt x 448.2401pt.
+ [17
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2.23}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.217 \newpage
+               <../img/Manfred-30-30/invY.png>] [18
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2.24}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.217 \newpage
+               <../img/Manfred-30-30/invZ.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 219--221
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 219--221
+
+ []
+
+<../img/Piotrek-30-30-30-30/cells.png, id=294, 274.77657pt x 73.02281pt>
+File: ../img/Piotrek-30-30-30-30/cells.png Graphic file (type png)
+<use ../img/Piotrek-30-30-30-30/cells.png>
+Package pdftex.def Info: ../img/Piotrek-30-30-30-30/cells.png  used on input line 224.
+(pdftex.def)             Requested size: 377.62642pt x 100.36485pt.
+<../img/Piotrek-30-30-30-30/range.png, id=295, 173.89969pt x 85.06781pt>
+File: ../img/Piotrek-30-30-30-30/range.png Graphic file (type png)
+<use ../img/Piotrek-30-30-30-30/range.png>
+Package pdftex.def Info: ../img/Piotrek-30-30-30-30/range.png  used on input line 230.
+(pdftex.def)             Requested size: 377.62642pt x 184.75099pt.
+<../img/Piotrek-30-30-30-30/torqueX.png, id=296, 799.48688pt x 597.73312pt>
+File: ../img/Piotrek-30-30-30-30/torqueX.png Graphic file (type png)
+<use ../img/Piotrek-30-30-30-30/torqueX.png>
+Package pdftex.def Info: ../img/Piotrek-30-30-30-30/torqueX.png  used on input line 236.
+(pdftex.def)             Requested size: 377.62642pt x 282.33006pt.
+[19
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2.25}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.239 
+      
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2.26}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.239 
+       <../img/Piotrek-30-30-30-30/cells.png> <../img/Piotrek-30-30-30-30/range.png>]
+<../img/Piotrek-30-30-30-30/torqueY.png, id=305, 804.00375pt x 603.0028pt>
+File: ../img/Piotrek-30-30-30-30/torqueY.png Graphic file (type png)
+<use ../img/Piotrek-30-30-30-30/torqueY.png>
+Package pdftex.def Info: ../img/Piotrek-30-30-30-30/torqueY.png  used on input line 242.
+(pdftex.def)             Requested size: 377.62642pt x 283.21812pt.
+<../img/Piotrek-30-30-30-30/torqueZ.png, id=306, 808.52063pt x 596.98032pt>
+File: ../img/Piotrek-30-30-30-30/torqueZ.png Graphic file (type png)
+<use ../img/Piotrek-30-30-30-30/torqueZ.png>
+Package pdftex.def Info: ../img/Piotrek-30-30-30-30/torqueZ.png  used on input line 248.
+(pdftex.def)             Requested size: 377.62642pt x 278.82271pt.
+ [20
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2.27}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.251 
+      
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2.28}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.251 
+       <../img/Piotrek-30-30-30-30/torqueX.png> <../img/Piotrek-30-30-30-30/torqueY.png>]
+<../img/Piotrek-30-30-30-30/forceX.png, id=315, 800.9925pt x 601.4972pt>
+File: ../img/Piotrek-30-30-30-30/forceX.png Graphic file (type png)
+<use ../img/Piotrek-30-30-30-30/forceX.png>
+Package pdftex.def Info: ../img/Piotrek-30-30-30-30/forceX.png  used on input line 254.
+(pdftex.def)             Requested size: 377.62642pt x 283.57564pt.
+<../img/Piotrek-30-30-30-30/forceY.png, id=316, 798.73407pt x 603.0028pt>
+File: ../img/Piotrek-30-30-30-30/forceY.png Graphic file (type png)
+<use ../img/Piotrek-30-30-30-30/forceY.png>
+Package pdftex.def Info: ../img/Piotrek-30-30-30-30/forceY.png  used on input line 260.
+(pdftex.def)             Requested size: 377.62642pt x 285.08595pt.
+ [21
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2.29}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.263 
+      
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2.30}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.263 
+       <../img/Piotrek-30-30-30-30/torqueZ.png> <../img/Piotrek-30-30-30-30/forceX.png>]
+<../img/Piotrek-30-30-30-30/forceZ.png, id=325, 778.40813pt x 605.26125pt>
+File: ../img/Piotrek-30-30-30-30/forceZ.png Graphic file (type png)
+<use ../img/Piotrek-30-30-30-30/forceZ.png>
+Package pdftex.def Info: ../img/Piotrek-30-30-30-30/forceZ.png  used on input line 266.
+(pdftex.def)             Requested size: 377.62642pt x 293.63446pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 270--273
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 270--273
+
+ []
+
+[22
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2.31}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.273 
+      
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2.32}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.273 
+       <../img/Piotrek-30-30-30-30/forceY.png> <../img/Piotrek-30-30-30-30/forceZ.png>]
+<../img/Piotrek-30-30-30-30/plus10.png, id=334, 808.52063pt x 610.53094pt>
+File: ../img/Piotrek-30-30-30-30/plus10.png Graphic file (type png)
+<use ../img/Piotrek-30-30-30-30/plus10.png>
+Package pdftex.def Info: ../img/Piotrek-30-30-30-30/plus10.png  used on input line 276.
+(pdftex.def)             Requested size: 377.62642pt x 285.1516pt.
+ [23
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2.33}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.281 \newpage
+               <../img/Piotrek-30-30-30-30/plus10.png>]
+Overfull \hbox (3.10281pt too wide) in paragraph at lines 282--282
+[]\T1/cmr/bx/n/14.4 Parametric study for Sternik 1.5 with angle of attack and sideslip 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 283--287
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 283--287
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 283--287
+
+ []
+
+<../img/ATTACK/3Dvector.png, id=341, 1927.2pt x 1084.05pt>
+File: ../img/ATTACK/3Dvector.png Graphic file (type png)
+<use ../img/ATTACK/3Dvector.png>
+Package pdftex.def Info: ../img/ATTACK/3Dvector.png  used on input line 290.
+(pdftex.def)             Requested size: 472.03123pt x 265.5036pt.
+<../img/ATTACK/img1.png, id=342, 680.5425pt x 157.33781pt>
+File: ../img/ATTACK/img1.png Graphic file (type png)
+<use ../img/ATTACK/img1.png>
+Package pdftex.def Info: ../img/ATTACK/img1.png  used on input line 296.
+(pdftex.def)             Requested size: 472.03123pt x 109.13217pt.
+<../img/ATTACK/img2.png, id=343, 816.04875pt x 511.9125pt>
+File: ../img/ATTACK/img2.png Graphic file (type png)
+<use ../img/ATTACK/img2.png>
+Package pdftex.def Info: ../img/ATTACK/img2.png  used on input line 302.
+(pdftex.def)             Requested size: 377.62642pt x 236.88861pt.
+[24
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2.34}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.305 
+      
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2.35}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.305 
+       <../img/ATTACK/3Dvector.png> <../img/ATTACK/img1.png>]
+<../img/ATTACK/img3.png, id=353, 797.98125pt x 550.30594pt>
+File: ../img/ATTACK/img3.png Graphic file (type png)
+<use ../img/ATTACK/img3.png>
+Package pdftex.def Info: ../img/ATTACK/img3.png  used on input line 308.
+(pdftex.def)             Requested size: 377.62642pt x 260.41559pt.
+ [25
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2.36}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.311 \newpage
+              
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2.37}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.311 \newpage
+               <../img/ATTACK/img2.png> <../img/ATTACK/img3.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 313--321
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 313--321
+
+ []
+
+<../img/ATTACK/img4.png, id=362, 201.75375pt x 201.75375pt>
+File: ../img/ATTACK/img4.png Graphic file (type png)
+<use ../img/ATTACK/img4.png>
+Package pdftex.def Info: ../img/ATTACK/img4.png  used on input line 324.
+(pdftex.def)             Requested size: 236.01561pt x 236.01706pt.
+<../img/ATTACK/img5.png, id=363, 342.5297pt x 292.09125pt>
+File: ../img/ATTACK/img5.png Graphic file (type png)
+<use ../img/ATTACK/img5.png>
+Package pdftex.def Info: ../img/ATTACK/img5.png  used on input line 330.
+(pdftex.def)             Requested size: 236.01561pt x 201.26683pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 335--338
+
+ []
+
+[26
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2.38}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.338 
+      
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2.39}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.338 
+       <../img/ATTACK/img4.png> <../img/ATTACK/img5.png>]
+<../img/AttackPiotrek/20x20torqueX.png, id=372, 761.84625pt x 620.3175pt>
+File: ../img/AttackPiotrek/20x20torqueX.png Graphic file (type png)
+<use ../img/AttackPiotrek/20x20torqueX.png>
+Package pdftex.def Info: ../img/AttackPiotrek/20x20torqueX.png  used on input line 345.
+(pdftex.def)             Requested size: 377.62642pt x 307.46985pt.
+<../img/AttackPiotrek/20x20torqueY.png, id=373, 744.53156pt x 606.76688pt>
+File: ../img/AttackPiotrek/20x20torqueY.png Graphic file (type png)
+<use ../img/AttackPiotrek/20x20torqueY.png>
+Package pdftex.def Info: ../img/AttackPiotrek/20x20torqueY.png  used on input line 351.
+(pdftex.def)             Requested size: 354.02342pt x 288.5228pt.
+ [27
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2.40}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.354 
+       <../img/AttackPiotrek/20x20torqueX.png>]
+<../img/AttackPiotrek/20x20torqueZ.png, id=381, 770.12718pt x 606.01407pt>
+File: ../img/AttackPiotrek/20x20torqueZ.png Graphic file (type png)
+<use ../img/AttackPiotrek/20x20torqueZ.png>
+Package pdftex.def Info: ../img/AttackPiotrek/20x20torqueZ.png  used on input line 357.
+(pdftex.def)             Requested size: 354.02342pt x 278.57567pt.
+<../img/AttackPiotrek/0x0torqueX.png, id=382, 779.16093pt x 621.82312pt>
+File: ../img/AttackPiotrek/0x0torqueX.png Graphic file (type png)
+<use ../img/AttackPiotrek/0x0torqueX.png>
+Package pdftex.def Info: ../img/AttackPiotrek/0x0torqueX.png  used on input line 366.
+(pdftex.def)             Requested size: 330.42041pt x 263.69728pt.
+ [28
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2.41}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.368 \end{figure}
+                  
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2.42}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.368 \end{figure}
+                   <../img/AttackPiotrek/20x20torqueY.png> <../img/AttackPiotrek/20x20torqueZ.png>]
+<../img/AttackPiotrek/0x0torqueY.png, id=391, 810.02625pt x 602.25pt>
+File: ../img/AttackPiotrek/0x0torqueY.png Graphic file (type png)
+<use ../img/AttackPiotrek/0x0torqueY.png>
+Package pdftex.def Info: ../img/AttackPiotrek/0x0torqueY.png  used on input line 372.
+(pdftex.def)             Requested size: 330.42041pt x 245.66512pt.
+<../img/AttackPiotrek/0x0torqueZ.png, id=392, 768.62157pt x 620.3175pt>
+File: ../img/AttackPiotrek/0x0torqueZ.png Graphic file (type png)
+<use ../img/AttackPiotrek/0x0torqueZ.png>
+Package pdftex.def Info: ../img/AttackPiotrek/0x0torqueZ.png  used on input line 378.
+(pdftex.def)             Requested size: 377.62642pt x 304.77225pt.
+ [29
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2.43}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.381 \newpage
+              
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2.44}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.381 \newpage
+               <../img/AttackPiotrek/0x0torqueX.png> <../img/AttackPiotrek/0x0torqueY.png>] [30
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2.45}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.381 \newpage
+               <../img/AttackPiotrek/0x0torqueZ.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 383--393
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 383--393
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 383--393
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 383--393
+
+ []
+
+[31]
+<../img/AttackPiotrek/0x20torqueX.png, id=412, 757.32938pt x 609.77812pt>
+File: ../img/AttackPiotrek/0x20torqueX.png Graphic file (type png)
+<use ../img/AttackPiotrek/0x20torqueX.png>
+Package pdftex.def Info: ../img/AttackPiotrek/0x20torqueX.png  used on input line 396.
+(pdftex.def)             Requested size: 330.42041pt x 266.04222pt.
+<../img/AttackPiotrek/0x20torqueY.png, id=413, 743.02594pt x 597.73312pt>
+File: ../img/AttackPiotrek/0x20torqueY.png Graphic file (type png)
+<use ../img/AttackPiotrek/0x20torqueY.png>
+Package pdftex.def Info: ../img/AttackPiotrek/0x20torqueY.png  used on input line 402.
+(pdftex.def)             Requested size: 330.42041pt x 265.81255pt.
+<../img/AttackPiotrek/0x20torqueZ.png, id=414, 742.27313pt x 613.54219pt>
+File: ../img/AttackPiotrek/0x20torqueZ.png Graphic file (type png)
+<use ../img/AttackPiotrek/0x20torqueZ.png>
+Package pdftex.def Info: ../img/AttackPiotrek/0x20torqueZ.png  used on input line 408.
+(pdftex.def)             Requested size: 377.62642pt x 312.14406pt.
+ [32
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2.46}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.411 
+      
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2.47}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.411 
+       <../img/AttackPiotrek/0x20torqueX.png> <../img/AttackPiotrek/0x20torqueY.png>]
+<../img/AttackPiotrek/img1.png, id=423, 975.645pt x 501.875pt>
+File: ../img/AttackPiotrek/img1.png Graphic file (type png)
+<use ../img/AttackPiotrek/img1.png>
+Package pdftex.def Info: ../img/AttackPiotrek/img1.png  used on input line 414.
+(pdftex.def)             Requested size: 377.62642pt x 194.25246pt.
+<../img/AttackPiotrek/img2.png, id=424, 335.75438pt x 633.11531pt>
+File: ../img/AttackPiotrek/img2.png Graphic file (type png)
+<use ../img/AttackPiotrek/img2.png>
+Package pdftex.def Info: ../img/AttackPiotrek/img2.png  used on input line 420.
+(pdftex.def)             Requested size: 330.42041pt x 623.05711pt.
+ [33
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2.48}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.423 
+      
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2.49}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.423 
+       <../img/AttackPiotrek/0x20torqueZ.png> <../img/AttackPiotrek/img1.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 425--431
+
+ []
+
+[34
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2.50}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.431 
+       <../img/AttackPiotrek/img2.png>]
+<../img/AttackManfred/img1.png, id=439, 283.81032pt x 421.575pt>
+File: ../img/AttackManfred/img1.png Graphic file (type png)
+<use ../img/AttackManfred/img1.png>
+Package pdftex.def Info: ../img/AttackManfred/img1.png  used on input line 434.
+(pdftex.def)             Requested size: 188.8096pt x 280.46606pt.
+<../img/AttackManfred/img2.png, id=440, 975.645pt x 501.875pt>
+File: ../img/AttackManfred/img2.png Graphic file (type png)
+<use ../img/AttackManfred/img2.png>
+Package pdftex.def Info: ../img/AttackManfred/img2.png  used on input line 440.
+(pdftex.def)             Requested size: 377.62642pt x 194.25246pt.
+<../img/AttackManfred/torqueX.png, id=441, 1026.83624pt x 725.71124pt>
+File: ../img/AttackManfred/torqueX.png Graphic file (type png)
+<use ../img/AttackManfred/torqueX.png>
+Package pdftex.def Info: ../img/AttackManfred/torqueX.png  used on input line 446.
+(pdftex.def)             Requested size: 377.62642pt x 266.88116pt.
+ [35
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2.51}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.449 
+      
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2.52}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.449 
+       <../img/AttackManfred/img1.png> <../img/AttackManfred/img2.png>]
+<../img/AttackManfred/torqueY.png, id=450, 1027.84pt x 690.58pt>
+File: ../img/AttackManfred/torqueY.png Graphic file (type png)
+<use ../img/AttackManfred/torqueY.png>
+Package pdftex.def Info: ../img/AttackManfred/torqueY.png  used on input line 452.
+(pdftex.def)             Requested size: 377.62642pt x 253.71924pt.
+<../img/AttackManfred/torqueZ.png, id=451, 1143.27126pt x 779.91376pt>
+File: ../img/AttackManfred/torqueZ.png Graphic file (type png)
+<use ../img/AttackManfred/torqueZ.png>
+Package pdftex.def Info: ../img/AttackManfred/torqueZ.png  used on input line 458.
+(pdftex.def)             Requested size: 377.62642pt x 257.61035pt.
+ [36
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2.53}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.461 
+      
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2.54}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.461 
+       <../img/AttackManfred/torqueX.png> <../img/AttackManfred/torqueY.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 463--468
+
+ []
+
+<../img/AttackManfred/1torqueX.png, id=461, 793.46437pt x 626.34pt>
+File: ../img/AttackManfred/1torqueX.png Graphic file (type png)
+<use ../img/AttackManfred/1torqueX.png>
+Package pdftex.def Info: ../img/AttackManfred/1torqueX.png  used on input line 473.
+(pdftex.def)             Requested size: 330.42041pt x 260.82462pt.
+[37
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2.55}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.476 
+       <../img/AttackManfred/torqueZ.png>]
+<../img/AttackManfred/1torqueY.png, id=468, 718.93594pt x 591.71063pt>
+File: ../img/AttackManfred/1torqueY.png Graphic file (type png)
+<use ../img/AttackManfred/1torqueY.png>
+Package pdftex.def Info: ../img/AttackManfred/1torqueY.png  used on input line 479.
+(pdftex.def)             Requested size: 330.42041pt x 271.95544pt.
+<../img/AttackManfred/1torqueZ.png, id=469, 759.58781pt x 607.51968pt>
+File: ../img/AttackManfred/1torqueZ.png Graphic file (type png)
+<use ../img/AttackManfred/1torqueZ.png>
+Package pdftex.def Info: ../img/AttackManfred/1torqueZ.png  used on input line 485.
+(pdftex.def)             Requested size: 377.62642pt x 302.03487pt.
+ [38
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2.56}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.488 \newpage
+              
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2.57}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.488 \newpage
+               <../img/AttackManfred/1torqueX.png> <../img/AttackManfred/1torqueY.png>] [39
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2.58}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.488 \newpage
+               <../img/AttackManfred/1torqueZ.png>]
+<../img/newAssemblyPiotrek/torqueX.png, id=484, 811.53188pt x 561.59813pt>
+File: ../img/newAssemblyPiotrek/torqueX.png Graphic file (type png)
+<use ../img/newAssemblyPiotrek/torqueX.png>
+Package pdftex.def Info: ../img/newAssemblyPiotrek/torqueX.png  used on input line 494.
+(pdftex.def)             Requested size: 330.42041pt x 228.66283pt.
+<../img/newAssemblyPiotrek/torqueY.png, id=485, 818.30719pt x 608.2725pt>
+File: ../img/newAssemblyPiotrek/torqueY.png Graphic file (type png)
+<use ../img/newAssemblyPiotrek/torqueY.png>
+Package pdftex.def Info: ../img/newAssemblyPiotrek/torqueY.png  used on input line 500.
+(pdftex.def)             Requested size: 330.42041pt x 245.61578pt.
+<../img/newAssemblyPiotrek/torqueZ.png, id=486, 810.77907pt x 562.35094pt>
+File: ../img/newAssemblyPiotrek/torqueZ.png Graphic file (type png)
+<use ../img/newAssemblyPiotrek/torqueZ.png>
+Package pdftex.def Info: ../img/newAssemblyPiotrek/torqueZ.png  used on input line 506.
+(pdftex.def)             Requested size: 377.62642pt x 261.91953pt.
+ [40
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2.59}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.509 
+      
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2.60}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.509 
+       <../img/newAssemblyPiotrek/torqueX.png> <../img/newAssemblyPiotrek/torqueY.png>]
+<../img/newAssemblyPiotrek/funi.png, id=495, 1317.92375pt x 516.93124pt>
+File: ../img/newAssemblyPiotrek/funi.png Graphic file (type png)
+<use ../img/newAssemblyPiotrek/funi.png>
+Package pdftex.def Info: ../img/newAssemblyPiotrek/funi.png  used on input line 512.
+(pdftex.def)             Requested size: 472.03123pt x 185.14069pt.
+ [41
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2.61}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.515 \newpage
+              
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2.62}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.515 \newpage
+               <../img/newAssemblyPiotrek/torqueZ.png> <../img/newAssemblyPiotrek/funi.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 517--527
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 517--527
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 517--527
+
+ []
+
+
+Overfull \hbox (13.93233pt too wide) in paragraph at lines 517--527
+\T1/cmr/m/n/10 If for some reason someone CRAZY will want to see the resoults, they are in the ParametricStudy48kNatarcie.xlsx
+ []
+
+<../img/meshFuni/img1.png, id=503, 1927.2pt x 1084.05pt>
+File: ../img/meshFuni/img1.png Graphic file (type png)
+<use ../img/meshFuni/img1.png>
+Package pdftex.def Info: ../img/meshFuni/img1.png  used on input line 530.
+(pdftex.def)             Requested size: 472.03123pt x 265.5036pt.
+<../img/meshFuni/img2.png, id=504, 1927.2pt x 1084.05pt>
+File: ../img/meshFuni/img2.png Graphic file (type png)
+<use ../img/meshFuni/img2.png>
+Package pdftex.def Info: ../img/meshFuni/img2.png  used on input line 536.
+(pdftex.def)             Requested size: 472.03123pt x 265.5036pt.
+[42
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2.63}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.539 
+       <../img/meshFuni/img1.png>]
+<../img/meshFuni/img3.png, id=512, 1927.2pt x 1084.05pt>
+File: ../img/meshFuni/img3.png Graphic file (type png)
+<use ../img/meshFuni/img3.png>
+Package pdftex.def Info: ../img/meshFuni/img3.png  used on input line 542.
+(pdftex.def)             Requested size: 472.03123pt x 265.5036pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 547--551
+
+ []
+
+[43
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2.64}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.551 \begin{itemize}
+                     
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2.65}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.551 \begin{itemize}
+                      <../img/meshFuni/img2.png> <../img/meshFuni/img3.png>]) [44]
+Chapter 3.
+(chapters/ansys.tex) [45
+
+] (docs.aux)
+ ***********
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2024-02-20>
+ ***********
+Package rerunfilecheck Info: File `docs.out' has not changed.
+(rerunfilecheck)             Checksum: 1F2E3FF4FC332792EFD0A368C8E9F98A;6710.
+ ) 
+Here is how much of TeX's memory you used:
+ 13033 strings out of 476392
+ 214973 string characters out of 5793960
+ 1937187 words of memory out of 5000000
+ 34769 multiletter control sequences out of 15000+600000
+ 573234 words of font info for 74 fonts, out of 8000000 for 9000
+ 0 hyphenation exceptions out of 8191
+ 110i,7n,107p,589b,471s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ </home/prlpnrpph512/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/ecbx1200.pk> </home/prlpnrpph512/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1000.pk> </home/prlpnrpph512/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/ecbx1440.pk> </home/prlpnrpph512/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/ecbx2074.pk> </home/prlpnrpph512/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/ecrm1000.pk> </home/prlpnrpph512/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/ecbx1000.pk> </home/prlpnrpph512/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/ecbx2488.pk> </home/prlpnrpph512/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/ecrm1200.pk> </home/prlpnrpph512/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/ecrm1728.pk>
+Output written on docs.pdf (46 pages, 3888254 bytes).
+PDF statistics:
+ 838 PDF objects out of 1000 (max. 8388607)
+ 141 named destinations out of 1000 (max. 500000)
+ 534 words of extra memory for PDF output out of 10000 (max. 10000000)
+

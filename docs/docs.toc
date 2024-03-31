@@ -1,0 +1,26 @@
+\contentsline {chapter}{\numberline {1}Introduction}{2}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Goal of simulations}{2}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Software used}{2}{section.1.2}%
+\contentsline {chapter}{\numberline {2}Solidworks}{3}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Tutorials}{3}{section.2.1}%
+\contentsline {section}{\numberline {2.2}SolidWorks basics}{3}{section.2.2}%
+\contentsline {section}{\numberline {2.3}First simulation - Sternik 1.5}{4}{section.2.3}%
+\contentsline {section}{\numberline {2.4}First parametric for all values done by Piotrek - Sternik 1.5}{7}{section.2.4}%
+\contentsline {section}{\numberline {2.5}Second parametric by Manfred and Piotrek - Sternik 1.5}{7}{section.2.5}%
+\contentsline {section}{\numberline {2.6}Same parametic study for Sternik 1.5 but with different mesh by Manfred}{10}{section.2.6}%
+\contentsline {section}{\numberline {2.7}Similar study but for (-30; 30) (0; 30) angles for Sternik 1.5 by Manfred}{13}{section.2.7}%
+\contentsline {section}{\numberline {2.8}Parametric study for Sternik 1.5 for (-30; 30) (-30; 30) by Piotrek}{19}{section.2.8}%
+\contentsline {section}{\numberline {2.9}Parametric study for Sternik 1.5 with angle of attack and sideslip}{24}{section.2.9}%
+\contentsline {section}{\numberline {2.10}Important problem with Solidworks}{26}{section.2.10}%
+\contentsline {section}{\numberline {2.11}Parametric study for Sternik 1.5 with angle of attack and sideslip by Piotrek}{27}{section.2.11}%
+\contentsline {subsection}{\numberline {2.11.1}Canard angles of (20, 20) degrees}{27}{subsection.2.11.1}%
+\contentsline {subsection}{\numberline {2.11.2}Canard angles of (0, 0) degrees}{29}{subsection.2.11.2}%
+\contentsline {section}{\numberline {2.12}The problematic (0, 20) degrees study}{31}{section.2.12}%
+\contentsline {section}{\numberline {2.13}Same (0, 20) study on the old assembly}{35}{section.2.13}%
+\contentsline {subsection}{\numberline {2.13.1}Comparison of the results}{37}{subsection.2.13.1}%
+\contentsline {subsection}{\numberline {2.13.2}Same cannard on new assembly by Piotrek}{38}{subsection.2.13.2}%
+\contentsline {section}{\numberline {2.14}Parametric for angles of cannards for angle of attack of 0 degrees by Piotrek}{40}{section.2.14}%
+\contentsline {section}{\numberline {2.15}Why not use global angles for parametric studies}{42}{section.2.15}%
+\contentsline {section}{\numberline {2.16}Conclusion}{44}{section.2.16}%
+\contentsline {chapter}{\numberline {3}Ansys}{45}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Tuturials}{45}{section.3.1}%

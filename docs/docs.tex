@@ -1,0 +1,44 @@
+\documentclass{report}
+\usepackage[T1]{fontenc}
+\usepackage{amssymb}
+\usepackage{hyperref}
+\usepackage{physics}
+\usepackage{comment}
+\usepackage{float}
+\usepackage{graphicx}
+\graphicspath{ {../img/}}
+
+\usepackage{amsmath}
+\usepackage[margin=2.5cm]{geometry}
+
+\usepackage{nomencl}
+\makenomenclature
+
+\hypersetup{
+    colorlinks,
+    citecolor=black,
+    filecolor=black,
+    linkcolor=black,
+    urlcolor=black
+}
+
+\title{CFD simulations done for ACS project}
+\author{Manfred Gawlas}
+\date{03.03.2024}
+
+
+\begin{document}
+\maketitle
+
+\tableofcontents
+
+\chapter{Introduction}
+\input{chapters/introduction.tex}
+
+\chapter{Solidworks}
+\input{chapters/solidworks.tex}
+
+\chapter{Ansys}
+\input{chapters/ansys.tex}
+
+\end{document}
