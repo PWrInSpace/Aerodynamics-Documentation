@@ -20,6 +20,17 @@ INPUT /home/prlpnrpph512/.miktex/texmfs/install/tex/latex/amsmath/amsopn.sty
 INPUT /home/prlpnrpph512/.miktex/texmfs/install/tex/latex/base/fontenc.sty
 INPUT /home/prlpnrpph512/.miktex/texmfs/install/tex/latex/base/fontenc.sty
 INPUT /home/prlpnrpph512/.miktex/texmfs/install/fonts/tfm/jknappen/ec/ecrm1000.tfm
+INPUT /home/prlpnrpph512/.miktex/texmfs/install/tex/latex/geometry/geometry.sty
+INPUT /home/prlpnrpph512/.miktex/texmfs/install/tex/latex/geometry/geometry.sty
+INPUT /home/prlpnrpph512/.miktex/texmfs/install/tex/latex/graphics/keyval.sty
+INPUT /home/prlpnrpph512/.miktex/texmfs/install/tex/latex/graphics/keyval.sty
+INPUT /home/prlpnrpph512/.miktex/texmfs/install/tex/generic/iftex/ifvtex.sty
+INPUT /home/prlpnrpph512/.miktex/texmfs/install/tex/generic/iftex/ifvtex.sty
+INPUT /home/prlpnrpph512/.miktex/texmfs/install/tex/generic/iftex/iftex.sty
+INPUT /home/prlpnrpph512/.miktex/texmfs/install/tex/generic/iftex/iftex.sty
+INPUT /home/prlpnrpph512/.miktex/texmfs/install/tex/latex/geometry/geometry.cfg
+INPUT /home/prlpnrpph512/.miktex/texmfs/install/tex/latex/geometry/geometry.cfg
+INPUT /home/prlpnrpph512/.miktex/texmfs/install/tex/latex/geometry/geometry.cfg
 INPUT /home/prlpnrpph512/.miktex/texmfs/install/tex/latex/l3backend/l3backend-pdftex.def
 INPUT /home/prlpnrpph512/.miktex/texmfs/install/tex/latex/l3backend/l3backend-pdftex.def
 INPUT ./TR-R6.aux

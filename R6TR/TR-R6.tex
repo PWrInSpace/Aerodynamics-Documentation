@@ -2,6 +2,7 @@
 
 \usepackage{amsmath}
 \usepackage[T1]{fontenc}
+\usepackage[margin=2.5cm]{geometry}
 
 
 \begin{document}
@@ -10,7 +11,18 @@
 Dlaczego badamy oraz wzór na opór aerodynamiczny. Że bazujemy na modern exterior balistics i jakieś inne z literatury bo to łądnie brzmi.
 
 \subsection{Methodology of the present work}
-Solid, Ansys.
+For simulations we choose two programs to compare the results. The first one is 
+Solidworks Flow Simulation, in which we also prepared models for simulations. 
+The second one is Ansys Fluent.\\\\
+First we prepared the models in Solidworks and from there we exported them to 
+.step (214) file format to import them to Ansys. In Ansys we used Fluent with
+Meshing to prepare the mesh and then we run the simulations. Solidworks Flow Simulation
+was also used to prepare the mesh and run the simulations, which we later compared with
+Ansys Fluent results.\\\\
+All models were tested using Parametric studies/sets for 9 different velocities 
+from 0.1 to 1.0. The resulting graphs of drag coefficient vs mach number were 
+compared and analyzed.
+
 
 \subsection{Tested models}
 R6-Endcone, R6-No-Endcone, PrawieR5
