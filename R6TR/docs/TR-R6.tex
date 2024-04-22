@@ -4,6 +4,9 @@
 \usepackage[T1]{fontenc}
 \usepackage[margin=2.5cm]{geometry}
 \usepackage{comment}
+\usepackage{graphicx}
+\usepackage{float}
+
 
 \begin{document}
 \section{Introduction}
@@ -41,14 +44,27 @@ versus Mach number were analyzed and compared.
 
 
 \subsection{Tested models}
-R6-Endcone, R6-No-Endcone, PrawieR5
+R6-Endcone, R6-No-Endcone, PrawieR5\\\\
+For each set of simulations, computational domain mesh setting and graph of velocity and 
+pressure for 0.6 mach will be shown.\\\\
 
-\section{Upgdated R5 model}
-\begin{itemize}
-    \item Domena i mesh
-    \item Kolorki dla 0.2, 0.5, 0.8
-    \item Wykres CD
-\end{itemize}
+\section{Initial study}
+Work was started with the remodeled R5 model. The model was prepared in Solidworks and had 
+endcone, which was the change compared to the original R5 model. The model was tested in
+Solidworks Flow Simulation. The results can be seen here:
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{../data/PrawieR5-Solid/PrawieR5-TR-Velocity-Mach06.png}
+    \caption{Velocity graph for PrawieR5 model at Mach 0.6}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{../data/PrawieR5-Solid/CD-PrawieR5.pdf}
+    \caption{CD graph for PrawieR5 model at Mach 0.6}
+\end{figure}
+This model was only used to compare the results of older model with the new one. 
 
 \section{R6 Endcone}
 \subsection{Solidworks}
@@ -78,8 +94,11 @@ Wykresy zestawić.
 
 \section{Results and discussion}
 \begin{itemize}
-    \item Wykresy CD dla wszystkich modeli
-    \item Opis porównania i zestawienie z literaturą
+    \item Wykresy CD solida
+    \item Wykres CD fluenta
+    \item porównanie CD dla wyników solida i ansysa jakąś tam statystyką z użyciem pythona(ja to zrobie)
+    \item Podsumowanie że wyszedł lepszy dla endcone(co się zgadza z literaturą i przewidywaniami) 
+    oraz jakieś tam gadu gadu o Solidzie że gorszy. 
 \end{itemize}
 
 \end{document}
