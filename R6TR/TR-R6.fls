@@ -31,6 +31,8 @@ INPUT /home/prlpnrpph512/.miktex/texmfs/install/tex/generic/iftex/iftex.sty
 INPUT /home/prlpnrpph512/.miktex/texmfs/install/tex/latex/geometry/geometry.cfg
 INPUT /home/prlpnrpph512/.miktex/texmfs/install/tex/latex/geometry/geometry.cfg
 INPUT /home/prlpnrpph512/.miktex/texmfs/install/tex/latex/geometry/geometry.cfg
+INPUT /home/prlpnrpph512/.miktex/texmfs/install/tex/latex/comment/comment.sty
+INPUT /home/prlpnrpph512/.miktex/texmfs/install/tex/latex/comment/comment.sty
 INPUT /home/prlpnrpph512/.miktex/texmfs/install/tex/latex/l3backend/l3backend-pdftex.def
 INPUT /home/prlpnrpph512/.miktex/texmfs/install/tex/latex/l3backend/l3backend-pdftex.def
 INPUT ./TR-R6.aux

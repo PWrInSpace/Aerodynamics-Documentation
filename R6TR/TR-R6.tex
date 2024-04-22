@@ -3,13 +3,14 @@
 \usepackage{amsmath}
 \usepackage[T1]{fontenc}
 \usepackage[margin=2.5cm]{geometry}
-
+\usepackage{comment}
 
 \begin{document}
 \section{Introduction}
 \subsection{The problem of aerodynamic drag}
 Dlaczego badamy oraz wzór na opór aerodynamiczny. Że bazujemy na modern exterior balistics i jakieś inne z literatury bo to łądnie brzmi.
 
+\begin{comment}
 \subsection{Methodology of the present work}
 For simulations we choose two programs to compare the results. The first one is 
 Solidworks Flow Simulation, in which we also prepared models for simulations. 
@@ -22,6 +23,21 @@ Ansys Fluent results.\\\\
 All models were tested using Parametric studies/sets for 9 different velocities 
 from 0.1 to 1.0. The resulting graphs of drag coefficient vs mach number were 
 compared and analyzed.
+\end{comment}
+
+\subsection{Methodology of the present work}
+For simulations, two programs were chosen to compare the results. The first program, 
+Solidworks Flow Simulation, was used for both CFDs and model preparation. The second 
+program utilized was Ansys Fluent.\\\\
+Initially, the models were prepared in Solidworks and subsequently exported to 
+.step (214) file format for importation into Ansys. Within Ansys, Fluent with 
+Meshing was used to prepare the mesh, followed by the execution of simulations. 
+Solidworks Flow Simulation was also employed for mesh preparation and simulation execution, 
+enabling subsequent comparison with results obtained from Ansys Fluent.\\\\
+Parametric studies/sets were conducted for all models, encompassing nine different velocities
+ranging from 0.1 to 1.0. Subsequently, resulting graphs depicting the drag coefficient 
+versus Mach number were analyzed and compared.
+
 
 
 \subsection{Tested models}
