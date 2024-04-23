@@ -49,9 +49,13 @@ For each set of simulations, computational domain mesh setting and graph of velo
 pressure for 0.6 mach will be shown.\\\\
 
 \section{Initial study}
-Work was started with the remodeled R5 model. The model was prepared in Solidworks and had 
-endcone, which was the change compared to the original R5 model. The model was tested in
-Solidworks Flow Simulation. The results can be seen here:
+ChatGPT
+
+The work was initiated with the remodeled R5 model, which had been prepared in Solidworks 
+and featured an endcone, a modification in comparison to the original R5 model. Subsequent 
+testing of the model was conducted using Solidworks Flow Simulation. However, this model 
+was solely utilized for comparing the results of the older model with the new one. The 
+results can be observed here
 
 \begin{figure}[H]
     \centering
@@ -61,17 +65,42 @@ Solidworks Flow Simulation. The results can be seen here:
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=\textwidth]{../data/PrawieR5-Solid/CD-PrawieR5.pdf}
+    \includegraphics[width=\textwidth]{../data/PrawieR5-Solid/ComputationalDomain.png}
     \caption{CD graph for PrawieR5 model at Mach 0.6}
 \end{figure}
-This model was only used to compare the results of older model with the new one. 
+
 
 \section{R6 Endcone}
 \subsection{Solidworks}
-\begin{itemize}
-    \item Domena i mesh
-    \item Kolorki dla 0.2, 0.5, 0.8
-\end{itemize}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{../data/R6-Endcone-Solid/domain.png}
+    \caption{Computational domain for R6-Endcone model}
+\end{figure}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.6\textwidth]{../data/R6-Endcone-Solid/cells.png}
+    \caption{Cell number for R6-Endcone model}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{../data/R6-Endcone-Solid/mesh.png}
+    \caption{Mesh for R6-Endcone model}
+\end{figure}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{../data/R6-Endcone-Solid/speed.png}
+    \caption{Velocity graph at 0.6 Mach for R6-Endcone model}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{../data/R6-Endcone-Solid/pressure.png}
+    \caption{Pressure graph at 0.6 Mach for R6-Endcone model}
+\end{figure}
+
+
 \subsection{Ansys Fluent with meshing}
 \begin{itemize}
     \item Domena i mesh
@@ -81,16 +110,40 @@ Wykresy obu na koniec zestawić.
 
 \section{R6 No Endcone}
 \subsection{Solidworks}
-\begin{itemize}
-    \item Domena i mesh
-    \item Kolorki dla 0.2, 0.5, 0.8
-\end{itemize}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{../data/R6-NoEndcone-Solid/domain.png}
+    \caption{Computational domain for R6-NoEndcone model}
+\end{figure}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.6\textwidth]{../data/R6-NoEndcone-Solid/cells.png}
+    \caption{Cell number for R6-NoEndcone model}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{../data/R6-NoEndcone-Solid/mesh.png}
+    \caption{Mesh for R6-NoEndcone model}
+\end{figure}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{../data/R6-NoEndcone-Solid/speed.png}
+    \caption{Velocity graph at 0.6 Mach for R6-NoEndcone model}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{../data/R6-NoEndcone-Solid/konospeedoatode.png}
+    \caption{Pressure graph at 0.6 Mach for R6-NoEndcone model}
+\end{figure}
+
 \subsection{Ansys Fluent with meshing}
 \begin{itemize}
     \item Domena i mesh
     \item Kolorki dla 0.2, 0.5, 0.8
 \end{itemize}
-Wykresy zestawić.
 
 \section{Results and discussion}
 \begin{itemize}

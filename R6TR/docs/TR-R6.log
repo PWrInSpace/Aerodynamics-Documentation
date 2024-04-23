@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10) (preloaded format=pdflatex 2024.3.7)  22 APR 2024 15:47
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10) (preloaded format=pdflatex 2024.3.7)  23 APR 2024 19:37
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -237,36 +237,88 @@ Underfull \hbox (badness 10000) in paragraph at lines 47--50
 <../data/PrawieR5-Solid/PrawieR5-TR-Velocity-Mach06.png, id=1, 1230.84843pt x 560.8453pt>
 File: ../data/PrawieR5-Solid/PrawieR5-TR-Velocity-Mach06.png Graphic file (type png)
 <use ../data/PrawieR5-Solid/PrawieR5-TR-Velocity-Mach06.png>
-Package pdftex.def Info: ../data/PrawieR5-Solid/PrawieR5-TR-Velocity-Mach06.png  used on input line 58.
+Package pdftex.def Info: ../data/PrawieR5-Solid/PrawieR5-TR-Velocity-Mach06.png  used on input line 62.
 (pdftex.def)             Requested size: 472.03123pt x 215.08316pt.
 [1
 
 {/home/prlpnrpph512/.miktex/texmfs/data/fonts/map/pdftex/pdftex.map}]
-
-pdfTeX warning: pdflatex (file ../data/PrawieR5-Solid/CD-PrawieR5.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<../data/PrawieR5-Solid/CD-PrawieR5.pdf, id=9, 775.39449pt x 593.96722pt>
-File: ../data/PrawieR5-Solid/CD-PrawieR5.pdf Graphic file (type pdf)
-<use ../data/PrawieR5-Solid/CD-PrawieR5.pdf>
-Package pdftex.def Info: ../data/PrawieR5-Solid/CD-PrawieR5.pdf  used on input line 64.
-(pdftex.def)             Requested size: 472.03123pt x 361.58536pt.
-[2 <../data/PrawieR5-Solid/PrawieR5-TR-Velocity-Mach06.png> <../data/PrawieR5-Solid/CD-PrawieR5.pdf>] [3] (TR-R6.aux)
+<../data/PrawieR5-Solid/ComputationalDomain.png, id=9, 955.31906pt x 548.80031pt>
+File: ../data/PrawieR5-Solid/ComputationalDomain.png Graphic file (type png)
+<use ../data/PrawieR5-Solid/ComputationalDomain.png>
+Package pdftex.def Info: ../data/PrawieR5-Solid/ComputationalDomain.png  used on input line 68.
+(pdftex.def)             Requested size: 472.03123pt x 271.1671pt.
+<../data/R6-Endcone-Solid/domain.png, id=10, 1228.59pt x 569.87906pt>
+File: ../data/R6-Endcone-Solid/domain.png Graphic file (type png)
+<use ../data/R6-Endcone-Solid/domain.png>
+Package pdftex.def Info: ../data/R6-Endcone-Solid/domain.png  used on input line 77.
+(pdftex.def)             Requested size: 472.03123pt x 218.94759pt.
+<../data/R6-Endcone-Solid/cells.png, id=11, 251.43938pt x 43.66313pt>
+File: ../data/R6-Endcone-Solid/cells.png Graphic file (type png)
+<use ../data/R6-Endcone-Solid/cells.png>
+Package pdftex.def Info: ../data/R6-Endcone-Solid/cells.png  used on input line 82.
+(pdftex.def)             Requested size: 283.22162pt x 49.18217pt.
+ [2 <../data/PrawieR5-Solid/PrawieR5-TR-Velocity-Mach06.png> <../data/PrawieR5-Solid/ComputationalDomain.png>]
+<../data/R6-Endcone-Solid/mesh.png, id=15, 1304.62407pt x 395.22656pt>
+File: ../data/R6-Endcone-Solid/mesh.png Graphic file (type png)
+<use ../data/R6-Endcone-Solid/mesh.png>
+Package pdftex.def Info: ../data/R6-Endcone-Solid/mesh.png  used on input line 88.
+(pdftex.def)             Requested size: 472.03123pt x 142.9991pt.
+<../data/R6-Endcone-Solid/speed.png, id=16, 1129.97156pt x 353.06906pt>
+File: ../data/R6-Endcone-Solid/speed.png Graphic file (type png)
+<use ../data/R6-Endcone-Solid/speed.png>
+Package pdftex.def Info: ../data/R6-Endcone-Solid/speed.png  used on input line 93.
+(pdftex.def)             Requested size: 472.03123pt x 147.48526pt.
+ [3 <../data/R6-Endcone-Solid/domain.png> <../data/R6-Endcone-Solid/cells.png> <../data/R6-Endcone-Solid/mesh.png>]
+<../data/R6-Endcone-Solid/pressure.png, id=20, 1139.00531pt x 341.02406pt>
+File: ../data/R6-Endcone-Solid/pressure.png Graphic file (type png)
+<use ../data/R6-Endcone-Solid/pressure.png>
+Package pdftex.def Info: ../data/R6-Endcone-Solid/pressure.png  used on input line 99.
+(pdftex.def)             Requested size: 472.03123pt x 141.3246pt.
+<../data/R6-NoEndcone-Solid/domain.png, id=21, 1218.80344pt x 581.92406pt>
+File: ../data/R6-NoEndcone-Solid/domain.png Graphic file (type png)
+<use ../data/R6-NoEndcone-Solid/domain.png>
+Package pdftex.def Info: ../data/R6-NoEndcone-Solid/domain.png  used on input line 116.
+(pdftex.def)             Requested size: 472.03123pt x 225.36893pt.
+<../data/R6-NoEndcone-Solid/cells.png, id=22, 245.41687pt x 41.4047pt>
+File: ../data/R6-NoEndcone-Solid/cells.png Graphic file (type png)
+<use ../data/R6-NoEndcone-Solid/cells.png>
+Package pdftex.def Info: ../data/R6-NoEndcone-Solid/cells.png  used on input line 121.
+(pdftex.def)             Requested size: 283.22162pt x 47.78432pt.
+ [4 <../data/R6-Endcone-Solid/speed.png> <../data/R6-Endcone-Solid/pressure.png>]
+<../data/R6-NoEndcone-Solid/mesh.png, id=27, 1051.67906pt x 398.23781pt>
+File: ../data/R6-NoEndcone-Solid/mesh.png Graphic file (type png)
+<use ../data/R6-NoEndcone-Solid/mesh.png>
+Package pdftex.def Info: ../data/R6-NoEndcone-Solid/mesh.png  used on input line 127.
+(pdftex.def)             Requested size: 472.03123pt x 178.74353pt.
+<../data/R6-NoEndcone-Solid/speed.png, id=28, 1083.29718pt x 313.9228pt>
+File: ../data/R6-NoEndcone-Solid/speed.png Graphic file (type png)
+<use ../data/R6-NoEndcone-Solid/speed.png>
+Package pdftex.def Info: ../data/R6-NoEndcone-Solid/speed.png  used on input line 132.
+(pdftex.def)             Requested size: 472.03123pt x 136.78523pt.
+ [5 <../data/R6-NoEndcone-Solid/domain.png> <../data/R6-NoEndcone-Solid/cells.png> <../data/R6-NoEndcone-Solid/mesh.png>]
+<../data/R6-NoEndcone-Solid/konospeedoatode.png, id=32, 1096.84781pt x 268.75406pt>
+File: ../data/R6-NoEndcone-Solid/konospeedoatode.png Graphic file (type png)
+<use ../data/R6-NoEndcone-Solid/konospeedoatode.png>
+Package pdftex.def Info: ../data/R6-NoEndcone-Solid/konospeedoatode.png  used on input line 138.
+(pdftex.def)             Requested size: 472.03123pt x 115.65631pt.
+ [6 <../data/R6-NoEndcone-Solid/speed.png> <../data/R6-NoEndcone-Solid/konospeedoatode.png>] (TR-R6.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 2899 strings out of 476392
- 44029 string characters out of 5793960
- 1931187 words of memory out of 5000000
- 24974 multiletter control sequences out of 15000+600000
+ 2969 strings out of 476392
+ 47082 string characters out of 5793960
+ 1930187 words of memory out of 5000000
+ 25044 multiletter control sequences out of 15000+600000
  562250 words of font info for 42 fonts, out of 8000000 for 9000
  0 hyphenation exceptions out of 8191
- 57i,6n,65p,297b,235s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 57i,6n,65p,297b,237s stack positions out of 10000i,1000n,20000p,200000b,200000s
  </home/prlpnrpph512/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1000.pk> </home/prlpnrpph512/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/ecrm1000.pk> </home/prlpnrpph512/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/ecbx1200.pk> </home/prlpnrpph512/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/ecbx1440.pk>
-Output written on TR-R6.pdf (3 pages, 172529 bytes).
+Output written on TR-R6.pdf (6 pages, 575690 bytes).
 PDF statistics:
- 162 PDF objects out of 1000 (max. 8388607)
+ 176 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 11 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 61 words of extra memory for PDF output out of 10000 (max. 10000000)
 
