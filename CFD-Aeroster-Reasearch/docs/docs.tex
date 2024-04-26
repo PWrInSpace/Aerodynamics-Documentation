@@ -1,0 +1,106 @@
+\documentclass{article}
+\usepackage[T1]{fontenc}
+\usepackage{amssymb}
+\usepackage{hyperref}
+\usepackage{physics}
+\usepackage{comment}
+\usepackage{float}
+\usepackage{graphicx}
+\graphicspath{ {../img/}}
+
+\usepackage{amsmath}
+\usepackage[margin=2.5cm]{geometry}
+
+\usepackage{nomencl}
+\makenomenclature
+
+\hypersetup{
+    colorlinks,
+    citecolor=black,
+    filecolor=black,
+    linkcolor=black,
+    urlcolor=black
+}
+
+\title{CFD Simulations for Sternik rocket models}
+\author{Manfred Gawlas}
+\date{03.03.2024}
+
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+    This document contains the results of the CFD simulations done for the ACS project. The simulations were done using the OpenFOAM software. The results are presented in the form of figures and tables. The document is organized as follows: in Section 1, the introduction to the project is given; in Section 2, the results of the simulations are presented; and in Section 3, the conclusions are drawn. The results show that the simulations were successful in capturing the flow behavior in the system and provide valuable insights into the design of the ACS system. The simulations also show that the OpenFOAM software is a powerful tool for CFD simulations and can be used to study complex flow phenomena in engineering applications.
+\end{abstract}
+
+\tableofcontents
+
+\section{Introduction}
+\begin{enumerate}
+    \item Wprowadzenie do projektu - modele Sternika, na czym polega sterowanie aerodnamiczne
+    \item Dlaczego CFD jest potrzebne do Aerosteru
+    \item Co potrzebujemy uzyskać z symulacji - te współczynniki, ale też jak 
+    je obrobić 
+    \item Problem z symulacjami - czasochłonność, złożoność
+    \item Celem jest opracowanie metodyki, która pozwoli na szybkie i dokładne
+    uzyskanie wyników
+\end{enumerate}
+
+\section{Metodyka badania wogóle}
+Proponuje żeby zacząć od starych badań z Solida, potem badać:
+\begin{enumerate}
+    \item Pokazowe heatmapy żeby dało się zrozumieć jak zmieniają się te wartości i pokazać że wyniki
+    są w szczególności sensowne.
+    \item Domene
+    \item Mesh
+    \item Inne ustawienia
+    \item Metody interpolacji
+\end{enumerate}
+To wszystko badać w ten sposób, że najpierw puszczamy super dokładne symulacje dla 
+powiedzmy 6 konfiguracji gdzie taka konfiguracja to jakieś 5 różnych parametrów i 6sty
+się zmienia. W ten sposób uzyskujemy wykres 2D co pozwoli na dobre zestawienie tego później.\\\\
+Potem zmieniamy mesh/domene/ustawienia i puszczamy te same konfiguracje patrzymy jak to wpływa na wyniki. 
+Takie wykresy 2D to można sobie wjebać na jedną płaszczyzne i będzie nawet coś widocznego co 
+będzie można ładnie pokazywać.\\\\
+Na koniec można dla znalezionego najlepszego zestawu ustawień zrobić symulacje i testować
+metody interpolacji znowu względem tych super dobrych symulacji.\\\\
+Ale na początek zrobić coś takiego w wersji podstawowej dla Sternika 1.5 i wtedy zrobić full parametrik
+i go pokazać że się udał. Wtedy z tym można pójść już do ILOTu i się ich zapytać jakie ustawienia
+powinniśmy mieć z tych co nie są poprostu dokładnością mesha i domeny.
+
+\section{Opracowanie wyników do tej pory uzyskanych z Solida i problemy jakie napotkaliśmy}
+
+\section{Sternik 1.5 w Ansysie}
+\subsection{Problemy napotkane w Ansysie}
+\subsection{Super dokładne symulacje i heatmapy}
+\subsection{Opisanie ustawień symulacji}
+\subsection{Badania innych ustawień - tylko optymalizacja czasowa}
+
+\section{Badania Domene}
+
+\section{Badania Meshu}
+
+\section{Sternik 1.5 full parametrik}
+Interpolacja, wyniki, jakie zakresy parametrów, wnioski.
+
+\section{Sternik 2.0}
+\subsection{Optymalizacja czasowa i inne ustawienia co sie dowiemy}
+\subsection{Heatmapy pokazać}
+\subsection{Super dokładne wyniki}
+
+\section{Badanie Domeny}
+
+\section{Badanie Meshu}
+
+\section{Badanie innych ustawień}
+
+\section{Badanie interpolacji}
+
+\section{Full parametrik}
+
+\section{Wnioski}
+
+
+
+\end{document}
