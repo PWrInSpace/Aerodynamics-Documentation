@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10) (preloaded format=pdflatex 2024.3.7)  1 MAY 2024 12:01
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10) (preloaded format=pdflatex 2024.3.7)  1 MAY 2024 12:44
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -306,40 +306,40 @@ File: ../data/DataAnalisysSolid/Solid-Studies-CD-Graph.pdf Graphic file (type pd
 Package pdftex.def Info: ../data/DataAnalisysSolid/Solid-Studies-CD-Graph.pdf  used on input line 135.
 (pdftex.def)             Requested size: 472.03123pt x 361.36354pt.
  [5 <../data/R6-NoEndcone-Solid/cells.png> <../data/R6-NoEndcone-Solid/mesh.png> <../data/R6-NoEndcone-Solid/speed.png> <../data/R6-NoEndcone-Solid/konospeedoatode.png>] [6 <../data/DataAnalisysSolid/Solid-Studies-CD-Graph.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 167--180
+Underfull \hbox (badness 10000) in paragraph at lines 167--181
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 167--180
+Underfull \hbox (badness 10000) in paragraph at lines 167--181
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 167--180
+Underfull \hbox (badness 10000) in paragraph at lines 167--181
 
  []
 
-<../data/R6-Parametric-Endcone/ExampleCdGraphs.pdf, id=47, 694.51468pt x 439.40161pt>
+<../data/R6-Parametric-Endcone/ExampleCdGraphs.pdf, id=47, 629.4717pt x 389.5353pt>
 File: ../data/R6-Parametric-Endcone/ExampleCdGraphs.pdf Graphic file (type pdf)
 <use ../data/R6-Parametric-Endcone/ExampleCdGraphs.pdf>
-Package pdftex.def Info: ../data/R6-Parametric-Endcone/ExampleCdGraphs.pdf  used on input line 185.
-(pdftex.def)             Requested size: 472.03123pt x 298.64163pt.
-<../data/R6-Parametric-Endcone/ForceVsAngle.pdf, id=48, 613.57233pt x 383.75371pt>
+Package pdftex.def Info: ../data/R6-Parametric-Endcone/ExampleCdGraphs.pdf  used on input line 186.
+(pdftex.def)             Requested size: 472.03123pt x 292.1032pt.
+<../data/R6-Parametric-Endcone/ForceVsAngle.pdf, id=48, 631.63983pt x 403.26662pt>
 File: ../data/R6-Parametric-Endcone/ForceVsAngle.pdf Graphic file (type pdf)
 <use ../data/R6-Parametric-Endcone/ForceVsAngle.pdf>
-Package pdftex.def Info: ../data/R6-Parametric-Endcone/ForceVsAngle.pdf  used on input line 191.
-(pdftex.def)             Requested size: 377.62642pt x 236.18571pt.
+Package pdftex.def Info: ../data/R6-Parametric-Endcone/ForceVsAngle.pdf  used on input line 192.
+(pdftex.def)             Requested size: 377.62642pt x 241.09421pt.
 [7 <../data/R6-Parametric-Endcone/ExampleCdGraphs.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 194--201
+Underfull \hbox (badness 10000) in paragraph at lines 195--202
 
  []
 
-<../data/R6-Parametric-Endcone/CdVsAngle.pdf, id=93, 690.17848pt x 466.1415pt>
+<../data/R6-Parametric-Endcone/CdVsAngle.pdf, id=93, 583.21887pt x 348.34142pt>
 File: ../data/R6-Parametric-Endcone/CdVsAngle.pdf Graphic file (type pdf)
 <use ../data/R6-Parametric-Endcone/CdVsAngle.pdf>
-Package pdftex.def Info: ../data/R6-Parametric-Endcone/CdVsAngle.pdf  used on input line 204.
-(pdftex.def)             Requested size: 377.62642pt x 255.04852pt.
+Package pdftex.def Info: ../data/R6-Parametric-Endcone/CdVsAngle.pdf  used on input line 205.
+(pdftex.def)             Requested size: 377.62642pt x 225.55284pt.
 [8 <../data/R6-Parametric-Endcone/ForceVsAngle.pdf> <../data/R6-Parametric-Endcone/CdVsAngle.pdf>] [9] (TR-R6.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
@@ -355,7 +355,7 @@ Here is how much of TeX's memory you used:
  0 hyphenation exceptions out of 8191
  57i,9n,65p,302b,237s stack positions out of 10000i,1000n,20000p,200000b,200000s
  </home/prlpnrpph512/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/ecrm1000.pk> </home/prlpnrpph512/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/ecbx1200.pk> </home/prlpnrpph512/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/ecbx1440.pk>
-Output written on TR-R6.pdf (9 pages, 630659 bytes).
+Output written on TR-R6.pdf (9 pages, 630672 bytes).
 PDF statistics:
  321 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
