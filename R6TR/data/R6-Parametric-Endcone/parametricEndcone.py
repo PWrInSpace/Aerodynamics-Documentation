@@ -25,23 +25,25 @@ for i in range(0, len(content)):
 
 averages[15][1] /=6
 
-# Separate keys and average values into two lists for plotting
-keys = [item[0] for item in averages]
-values = [item[1] for item in averages]
+def plotAverages(averages):
+    # Separate keys and average values into two lists for plotting
+    keys = [item[0] for item in averages]
+    values = [item[1] for item in averages]
 
-# Plot averages
-plt.plot(keys, values, 'o-')
-plt.xlabel("Angle of Endcone")
-plt.ylabel("Average Force value")
-plt.title('Average values of Force vs Angle of endcone')
-plt.show()
+    # Plot averages
+    plt.plot(keys, values, 'o-')
+    plt.xlabel("Angle of Endcone")
+    plt.ylabel("Average Force value")
+    plt.title('Average values of Force vs Angle of endcone')
+    plt.show()
 
-# Constants for ForceToCD function
-REF_AREA = 0.018384843  # Replace with your actual value
-DENSITY = 1.225  # Replace with your actual value
+
 
 
 def ForceToCD(force, velocity):
+    # Constants for ForceToCD function
+    REF_AREA = 0.018384843
+    DENSITY = 1.225
     return 2 * force / (DENSITY * velocity**2 * REF_AREA)
 
 def plotExampleValues(content):
@@ -62,12 +64,29 @@ def plotExampleValues(content):
     plt.legend()  # Add a legend
     plt.show()
 
-plotExampleValues(content)    
+def plotCdVsAngle(content):
+    # Extract values from content
+    y = [item[0] for item in averages]
+    x1 = [ForceToCD(float(content[i][2]), float(content[i][0])) for i in range(4, 95, 6)]
+    x2 = [ForceToCD(float(content[i][2]), float(content[i][0])) for i in range(2, 93, 6)]
+    x3 = [ForceToCD(float(content[i][2]), float(content[i][0])) for i in range(0, 91, 6)]
 
+    # Plot values
+    plt.figure()  # Create a new figure
+    plt.plot(y, x1, 'o-', label='Mach 0.2')
+    plt.plot(y, x2, 'o-', label='Mach 0.4')
+    plt.plot(y, x3, 'o-', label='Mach 0.6')
+    plt.xlabel("Angle of Endcone")
+    plt.ylabel("Drag coefficient")
+    plt.title('Cd Value vs Angle of Endcone')
+    plt.legend()  # Add a legend
+    plt.show()
 
-    
+plotAverages(averages)
 
+plotExampleValues(content)
 
+plotCdVsAngle(content)
 
 
 

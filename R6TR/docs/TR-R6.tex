@@ -47,7 +47,7 @@ versus Mach number were analyzed and compared.
 R6-Endcone, R6-No-Endcone, PrawieR5\\\\
 For each set of simulations, computational domain mesh setting and graph of velocity and 
 pressure for 0.6 mach will be shown.\\\\
-
+\newpage
 \section{Initial study}
 The work was initiated with the remodeled R5 model, which had been prepared in Solidworks 
 and featured an endcone, a modification in comparison to the original R5 model. Subsequent 
@@ -170,7 +170,13 @@ study was from 0 to 15 degrees, with a step of 1 degree. For each angle, simulat
 0.1 to 0.6 Mach, with a step of 0.1 Mach. In total 96 simulations were made.\\\\
 Finding minimum of the average drag force function is crucial for the optimalization of the rocket
 since that would allow to reduce the drag force acting on the rocket, which would result in
-overall better performance of the rocket.
+overall better performance of the rocket.\\\\
+Function of drag coefficient for different Mach number depending on the endcone angle is also 
+shown in the graph. It allows to determine the optimal angle for the endcone for specific
+velocity and can be compared with existing literature.\\\\
+Mesh and domain settings for following simulations are the same as in the preliminary research for
+R6-Endcone model. Cell count changed slightly with the change of the endcone angle, but it was
+negligible.
 
 \subsection{Results and discussion}
 
@@ -182,7 +188,7 @@ overall better performance of the rocket.
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=\textwidth]{../data/R6-Parametric-Endcone/ForceVsAngle.pdf}
+    \includegraphics[width=0.8\textwidth]{../data/R6-Parametric-Endcone/ForceVsAngle.pdf}
     \caption{Average Force vs Angle graph}
 \end{figure}
 As we can see, the minimum of the average drag force function is at 7 - 9 degrees. We can also 
@@ -192,6 +198,12 @@ Spike at 1 degree is also worth mentioning, it may be true value at this point o
 the simulation error. This would require further research to determine the true value, however 
 it is not crucial for the optimalization of the rocket, since it is very unlikely that minimum 
 could be found there.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{../data/R6-Parametric-Endcone/CdVsAngle.pdf}
+    \caption{Drag coefficient vs Angle graph}
+\end{figure}
 
 \newpage
 

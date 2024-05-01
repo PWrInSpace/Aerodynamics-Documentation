@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10) (preloaded format=pdflatex 2024.3.7)  1 MAY 2024 10:34
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10) (preloaded format=pdflatex 2024.3.7)  1 MAY 2024 12:01
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -234,14 +234,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 47--50
 
  []
 
-<../data/PrawieR5-Solid/PrawieR5-TR-Velocity-Mach06.png, id=1, 1230.84843pt x 560.8453pt>
+[1
+
+{/home/prlpnrpph512/.miktex/texmfs/data/fonts/map/pdftex/pdftex.map}]
+<../data/PrawieR5-Solid/PrawieR5-TR-Velocity-Mach06.png, id=8, 1230.84843pt x 560.8453pt>
 File: ../data/PrawieR5-Solid/PrawieR5-TR-Velocity-Mach06.png Graphic file (type png)
 <use ../data/PrawieR5-Solid/PrawieR5-TR-Velocity-Mach06.png>
 Package pdftex.def Info: ../data/PrawieR5-Solid/PrawieR5-TR-Velocity-Mach06.png  used on input line 60.
 (pdftex.def)             Requested size: 472.03123pt x 215.08316pt.
-[1
-
-{/home/prlpnrpph512/.miktex/texmfs/data/fonts/map/pdftex/pdftex.map}]
 <../data/PrawieR5-Solid/ComputationalDomain.png, id=9, 955.31906pt x 548.80031pt>
 File: ../data/PrawieR5-Solid/ComputationalDomain.png Graphic file (type png)
 <use ../data/PrawieR5-Solid/ComputationalDomain.png>
@@ -306,43 +306,58 @@ File: ../data/DataAnalisysSolid/Solid-Studies-CD-Graph.pdf Graphic file (type pd
 Package pdftex.def Info: ../data/DataAnalisysSolid/Solid-Studies-CD-Graph.pdf  used on input line 135.
 (pdftex.def)             Requested size: 472.03123pt x 361.36354pt.
  [5 <../data/R6-NoEndcone-Solid/cells.png> <../data/R6-NoEndcone-Solid/mesh.png> <../data/R6-NoEndcone-Solid/speed.png> <../data/R6-NoEndcone-Solid/konospeedoatode.png>] [6 <../data/DataAnalisysSolid/Solid-Studies-CD-Graph.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 167--174
+Underfull \hbox (badness 10000) in paragraph at lines 167--180
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 167--180
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 167--180
 
  []
 
 <../data/R6-Parametric-Endcone/ExampleCdGraphs.pdf, id=47, 694.51468pt x 439.40161pt>
 File: ../data/R6-Parametric-Endcone/ExampleCdGraphs.pdf Graphic file (type pdf)
 <use ../data/R6-Parametric-Endcone/ExampleCdGraphs.pdf>
-Package pdftex.def Info: ../data/R6-Parametric-Endcone/ExampleCdGraphs.pdf  used on input line 179.
+Package pdftex.def Info: ../data/R6-Parametric-Endcone/ExampleCdGraphs.pdf  used on input line 185.
 (pdftex.def)             Requested size: 472.03123pt x 298.64163pt.
 <../data/R6-Parametric-Endcone/ForceVsAngle.pdf, id=48, 613.57233pt x 383.75371pt>
 File: ../data/R6-Parametric-Endcone/ForceVsAngle.pdf Graphic file (type pdf)
 <use ../data/R6-Parametric-Endcone/ForceVsAngle.pdf>
-Package pdftex.def Info: ../data/R6-Parametric-Endcone/ForceVsAngle.pdf  used on input line 185.
-(pdftex.def)             Requested size: 472.03123pt x 295.22775pt.
+Package pdftex.def Info: ../data/R6-Parametric-Endcone/ForceVsAngle.pdf  used on input line 191.
+(pdftex.def)             Requested size: 377.62642pt x 236.18571pt.
 [7 <../data/R6-Parametric-Endcone/ExampleCdGraphs.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 188--195
+Underfull \hbox (badness 10000) in paragraph at lines 194--201
 
  []
 
-[8 <../data/R6-Parametric-Endcone/ForceVsAngle.pdf>] [9] (TR-R6.aux)
+<../data/R6-Parametric-Endcone/CdVsAngle.pdf, id=93, 690.17848pt x 466.1415pt>
+File: ../data/R6-Parametric-Endcone/CdVsAngle.pdf Graphic file (type pdf)
+<use ../data/R6-Parametric-Endcone/CdVsAngle.pdf>
+Package pdftex.def Info: ../data/R6-Parametric-Endcone/CdVsAngle.pdf  used on input line 204.
+(pdftex.def)             Requested size: 377.62642pt x 255.04852pt.
+[8 <../data/R6-Parametric-Endcone/ForceVsAngle.pdf> <../data/R6-Parametric-Endcone/CdVsAngle.pdf>] [9] (TR-R6.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 2996 strings out of 476392
- 48489 string characters out of 5793960
+ 3003 strings out of 476392
+ 48862 string characters out of 5793960
  1930187 words of memory out of 5000000
- 25071 multiletter control sequences out of 15000+600000
+ 25078 multiletter control sequences out of 15000+600000
  562369 words of font info for 43 fonts, out of 8000000 for 9000
  0 hyphenation exceptions out of 8191
  57i,9n,65p,302b,237s stack positions out of 10000i,1000n,20000p,200000b,200000s
  </home/prlpnrpph512/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/ecrm1000.pk> </home/prlpnrpph512/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/ecbx1200.pk> </home/prlpnrpph512/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/ecbx1440.pk>
-Output written on TR-R6.pdf (9 pages, 615616 bytes).
+Output written on TR-R6.pdf (9 pages, 630659 bytes).
 PDF statistics:
- 281 PDF objects out of 1000 (max. 8388607)
+ 321 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 76 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 81 words of extra memory for PDF output out of 10000 (max. 10000000)
 
