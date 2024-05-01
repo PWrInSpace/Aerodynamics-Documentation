@@ -162,6 +162,39 @@ model is much more aerodynamically efficient.
 
 \newpage
 
+\section{Oplitmalization of the endcone in Solidworks}
+\subsection{Range and goal of this study}
+The goal of this study was to find a minimum of the average drag force function, depending on
+the endcone angle, which was coupled to the lenght of the endcone. The range of the
+study was from 0 to 15 degrees, with a step of 1 degree. For each angle, simulations were preformed for 
+0.1 to 0.6 Mach, with a step of 0.1 Mach. In total 96 simulations were made.\\\\
+Finding minimum of the average drag force function is crucial for the optimalization of the rocket
+since that would allow to reduce the drag force acting on the rocket, which would result in
+overall better performance of the rocket.
+
+\subsection{Results and discussion}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{../data/R6-Parametric-Endcone/ExampleCdGraphs.pdf}
+    \caption{Example of CD graphs for different endcone angles}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{../data/R6-Parametric-Endcone/ForceVsAngle.pdf}
+    \caption{Average Force vs Angle graph}
+\end{figure}
+As we can see, the minimum of the average drag force function is at 7 - 9 degrees. We can also 
+observe a trend of the function, which is decreasing for the range of 1 to 7 degrees and increasing
+for the range of 9 to 15 degrees.\\\\
+Spike at 1 degree is also worth mentioning, it may be true value at this point or just a result of
+the simulation error. This would require further research to determine the true value, however 
+it is not crucial for the optimalization of the rocket, since it is very unlikely that minimum 
+could be found there.
+
+\newpage
+
 \section{Optimalization of the endcone in Ansys Fluent}
 \begin{enumerate}
     \item What we did - optimalization depending on angle - 0.1 - 0.6 Mach and 1 or 2 degree step for some range.
