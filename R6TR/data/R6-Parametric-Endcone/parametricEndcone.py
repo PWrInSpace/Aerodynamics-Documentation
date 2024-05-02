@@ -98,6 +98,82 @@ plotCdVsAngle(content)
 
 
 
+'''
+def CompareNoEnconeYAndY12():
+    NoEnconeY = [0.524400388412621, 0.525676775960665, 0.516679370180853, 0.512793324549311, 0.512583409743801, 0.514490981639282, 0.518196961417704, 0.529854748184211]
+    for i in range(len(NoEnconeY)):
+        NoEnconeY[i] = NoEnconeY[i] - 0.1
+
+    x9 = [0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8]
+    x6 = [0.1, 0.2, 0.3, 0.4, 0.5, 0.6]
+    y12 = [ForceToCD(float(content[i][2]), float(content[i][0])) for i in range(77, 71, -1)]
+
+    plt.figure()  # Create a new figure
+    plt.plot(x9, NoEnconeY, 'o-', label='NoEnconeY')
+    plt.plot(x6, y12, 'o-', label='y12')
+    plt.xlabel("Index")
+    plt.ylabel("Value")
+    plt.title('Comparison of NoEnconeY and y12')
+    plt.legend()  # Add a legend
+    plt.show()
+
+def CompareEndconeYAndY8():
+    EndconeY = [0.418919542823116, 0.4193379544368, 0.411070061311167, 0.406074799502895, 0.40139809734908, 0.399242315686303, 0.397011926120074, 0.396962392205453]
+
+    x9 = [0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8]
+    x6 = [0.1, 0.2, 0.3, 0.4, 0.5, 0.6]
+    y8 = [ForceToCD(float(content[i][2]), float(content[i][0])) for i in range(53, 47, -1)]
+
+    plt.figure()  # Create a new figure
+    plt.plot(x9, EndconeY, 'o-', label='EndconeY')
+    plt.plot(x6, y8, 'o-', label='y8')
+    plt.xlabel("Index")
+    plt.ylabel("Value")
+    plt.title('Comparison of EndconeY and y8')
+    plt.legend()  # Add a legend
+    plt.show()
+
+CompareNoEnconeYAndY12()
+CompareEndconeYAndY8()
+'''
 
 
+def CompareNoEnconeYAndY12():
+    NoEnconeY = [0.524400388412621, 0.525676775960665, 0.516679370180853, 0.512793324549311, 0.512583409743801, 0.514490981639282, 0.518196961417704, 0.529854748184211]
+    for i in range(len(NoEnconeY)):
+        NoEnconeY[i] = NoEnconeY[i] - 0.1
+
+    x9 = [0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8]
+    x6 = [0.1, 0.2, 0.3, 0.4, 0.5, 0.6]
+    y12 = [ForceToCD(float(content[i][2]), float(content[i][0])) for i in range(77, 71, -1)]
+
+    plt.subplot(1, 2, 1)  # 1 row, 2 columns, first plot
+    plt.plot(x9, NoEnconeY, 'o-', label='NoEndcone -0.1 Cd value')
+    plt.plot(x6, y12, 'o-', label='y12')
+    plt.xlabel("Mach number")
+    plt.ylabel("Drag coefficient")
+    plt.title('Comparison of R6 NoEndcone and R6 with 12 degrees endcone')
+    plt.legend()  # Add a legend
+
+def CompareEndconeYAndY8():
+    EndconeY = [0.418919542823116, 0.4193379544368, 0.411070061311167, 0.406074799502895, 0.40139809734908, 0.399242315686303, 0.397011926120074, 0.396962392205453]
+
+    x9 = [0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8]
+    x6 = [0.1, 0.2, 0.3, 0.4, 0.5, 0.6]
+    y8 = [ForceToCD(float(content[i][2]), float(content[i][0])) for i in range(53, 47, -1)]
+
+    plt.subplot(1, 2, 2)  # 1 row, 2 columns, second plot
+    plt.plot(x9, EndconeY, 'o-', label='EndconeY')
+    plt.plot(x6, y8, 'o-', label='y8')
+    plt.xlabel("Mach number")
+    plt.ylabel("Drag coefficient")
+    plt.title('Comparison of R6 Endcone and R6 with 12 degrees endcone')
+    plt.legend()  # Add a legend
+
+CompareNoEnconeYAndY12()
+CompareEndconeYAndY8()
+
+plt.tight_layout()  # Adjust the padding between and around the subplots
+
+plt.show()
 
