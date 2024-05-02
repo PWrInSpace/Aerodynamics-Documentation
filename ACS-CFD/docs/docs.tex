@@ -14,6 +14,8 @@
 \usepackage{nomencl}
 \makenomenclature
 
+\usepackage{pdfpages}
+
 \hypersetup{
     colorlinks,
     citecolor=black,
@@ -37,6 +39,25 @@
 
 \chapter{Solidworks}
 \input{chapters/solidworks.tex}
+\section{Full heatmap parametric study for different velocities}
+This study was done on computing claster, for which we are very gratefull for. This
+allowed us to do a very large parametric study, which would be impossible to do on a single
+PC. The results are presented in the following pages.
+\begin{enumerate}
+    \item Parameters of this study were canard angles in range of -30 to 30 with step of 5 degrees and
+    velocities of 34, 68, 102 m/s. 
+    \item Mesh was pretty good with 80k cells. It was also made in a way, which we 
+    found to be the giving closest results to the very fine mesh.
+    \item In total $13 \times 13 \times 3 = 507$ simulations were done. This is 20\% of the 
+    minimal version of full parametric study for Sternik 1.5.
+\end{enumerate}
+The goal of this study was to generate accurate heatmaps of forces and moments for Sternik 1.5, 
+but also to study the influence of Mach number on the aerodynamic coefficients. Thanks 
+to never before seen quality of the results, it is possible to see the very non-linear 
+nature of the aerodynamic coefficients of such project.
+
+\includepdf[pages=-]{../STERNIK_15_CALE_CFD.pdf}
+
 
 \chapter{Ansys}
 \input{chapters/ansys.tex}
