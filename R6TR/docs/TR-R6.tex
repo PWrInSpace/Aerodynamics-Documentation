@@ -206,26 +206,67 @@ of the function and it's unlikely that noise of simulation was that high.
     \caption{Drag coefficient vs Angle graph}
 \end{figure}
 
+\subsection{Shift of upward trend of transonic spike}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{../data/R6-Parametric-Endcone/comparisone2plots.pdf}
+    \caption{Comparison of Drag coefficient vs Mach graph trends for different endcone angles}
+\end{figure}
+Concluding observation is that the transonic spike starts later for the endcone model with optimal
+endcone angles, which
+is very beneficial for the range of 0.6 to 0.9 Mach. This is a very important finding from the
+perspective of future rocket projects, where the rocket will be operating in this range of Mach.
+For such rockets, optimal endconoe angle could generate significant savings in energy.\\\\
+This observation could be already noticed in the preliminary research, where the Endcone model
+exhibited decreasing trend of drag coefficient for the range of 0.6 to 0.8 Mach, while the NoEndcone
+model exhibited a significant increase trend from 0.5 Mach forwards.
+
 \newpage
 
-\section{Optimalization of the endcone in Ansys Fluent}
-\begin{enumerate}
-    \item What we did - optimalization depending on angle - 0.1 - 0.6 Mach and 1 or 2 degree step for some range.
-    \item Stability changes depending on angle - Graph from OpenRocket
-    \item Domain and Mesh, Speed and Pressure graphs for 0.6 Mach
-    \item Results and discussion - mention that endcone is 4 degrees because of manufacture.
-\end{enumerate}
+\section{Optimalization of the fins in Solidworks}
+\subsection{Range and goal of this study}
+The goal of this study was to find the most optimal sweep angle of the fins for the R6 model. 
+Only parameter was 90 degrees minus sweep angle, the lenght of top of fin, lenght of bottom of fin and height of 
+fin were kept constant. The range of the study was from 30 to 90 degrees, with a step of 5 degree. 
+For all sweep angle values, simulations were preformed for 0.1 to 0.6 Mach, with a step of 0.1 Mach.\\\\
+Mesh and domain were kept the same as in prior simulations. Cell count changed slightly with the 
+change of the sweep angle, similiar to the endcone study, it was negligible.\\\\
+Endcone angle this time was kept at 4.29 degrees, since the physical model of it was already made.\\\\
+One important note is that for the rest of this study, we will call the angle 90 degrees minus sweep 
+angle just sweep angle.\\\\
 
-\section{Optimalization fin sweep angle in Ansys Fluent}
-\begin{enumerate}
-    \item What we did - optimalization depending on angle - 0.1 - 0.6 Mach and 1 or 2 degree step for some range. 
-    This all for 4 degree endcone angle.
-    \item Stability changes depending on angle - Graph from OpenRocket
-    \item Domain and Mesh, Speed and Pressure graphs for 0.6 Mach - BEST SAME AS BEFORE
-    \item Results and discussion, mention that the final results can be 
-\end{enumerate}
 
-\section{Summary and discussion}
+\subsection{Results and discussion}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{../data/R6-Parametric-Fins/ForceVsSweepAngle.pdf}
+    \caption{Average Force Value vs Sweep Angle}
+\end{figure}
+As shown in the graph, the minimum of the average drag force function is at 30 degrees. The function
+is increasing for whole tested range, with relatively small local extremums at 35 and 65 degrees. This
+means that the optimal sweep angle for the fins is 30 degrees. It could be also assumed that the
+trend will continue to decrease for the range of 30 to 0 degrees, however too small sweep angle
+would be impractical for the rocket, so it was not tested.
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{../data/R6-Parametric-Fins/CDvsSweep.pdf}
+    \caption{Drag coefficient vs Sweep Angle}
+\end{figure}
+Drag coefficient vs sweep angle graph shows the same trend as the average drag force function, but 
+also confirms the existence of characteristic local extremums at 35 and 65 degrees. This is a very
+ important finding from the perspective of the optimalization of the rocket, since when desinginig 
+the rocket, there was a prefered range of sweep angle. This study now clearly shows that when 
+deling with the range of the sweep angle from 55 to 90 degrees, most aerodynamicly efficient
+point likely to be close to 65 degrees.\\\\
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.7\textwidth]{../data/R6-Parametric-Fins/CDvsMach.pdf}
+    \caption{Similarity of curves of drag coefficient vs Mach for different sweep angles}
+\end{figure}
+
+\section{Summary}
 Results were great success, unlukcy with endcone being 4 degrees, but still great.
 
 \end{document}

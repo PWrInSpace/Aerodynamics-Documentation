@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10) (preloaded format=pdflatex 2024.3.7)  1 MAY 2024 12:44
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10) (preloaded format=pdflatex 2024.3.7)  2 MAY 2024 13:41
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -340,24 +340,84 @@ File: ../data/R6-Parametric-Endcone/CdVsAngle.pdf Graphic file (type pdf)
 <use ../data/R6-Parametric-Endcone/CdVsAngle.pdf>
 Package pdftex.def Info: ../data/R6-Parametric-Endcone/CdVsAngle.pdf  used on input line 205.
 (pdftex.def)             Requested size: 377.62642pt x 225.55284pt.
-[8 <../data/R6-Parametric-Endcone/ForceVsAngle.pdf> <../data/R6-Parametric-Endcone/CdVsAngle.pdf>] [9] (TR-R6.aux)
+<../data/R6-Parametric-Endcone/comparisone2plots.pdf, id=94, 638.1441pt x 281.85298pt>
+File: ../data/R6-Parametric-Endcone/comparisone2plots.pdf Graphic file (type pdf)
+<use ../data/R6-Parametric-Endcone/comparisone2plots.pdf>
+Package pdftex.def Info: ../data/R6-Parametric-Endcone/comparisone2plots.pdf  used on input line 213.
+(pdftex.def)             Requested size: 377.62642pt x 166.7907pt.
+[8 <../data/R6-Parametric-Endcone/ForceVsAngle.pdf> <../data/R6-Parametric-Endcone/CdVsAngle.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 216--224
+
+ []
+
+[9 <../data/R6-Parametric-Endcone/comparisone2plots.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 229--238
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 229--238
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 229--238
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 229--238
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 229--238
+
+ []
+
+<../data/R6-Parametric-Fins/ForceVsSweepAngle.pdf, id=217, 462.52798pt x 346.89601pt>
+File: ../data/R6-Parametric-Fins/ForceVsSweepAngle.pdf Graphic file (type pdf)
+<use ../data/R6-Parametric-Fins/ForceVsSweepAngle.pdf>
+Package pdftex.def Info: ../data/R6-Parametric-Fins/ForceVsSweepAngle.pdf  used on input line 243.
+(pdftex.def)             Requested size: 377.62642pt x 283.23383pt.
+<../data/R6-Parametric-Fins/CDvsSweep.pdf, id=218, 677.89258pt x 443.7378pt>
+File: ../data/R6-Parametric-Fins/CDvsSweep.pdf Graphic file (type pdf)
+<use ../data/R6-Parametric-Fins/CDvsSweep.pdf>
+Package pdftex.def Info: ../data/R6-Parametric-Fins/CDvsSweep.pdf  used on input line 253.
+(pdftex.def)             Requested size: 377.62642pt x 247.19145pt.
+[10 <../data/R6-Parametric-Fins/ForceVsSweepAngle.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 256--262
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 256--262
+
+ []
+
+<../data/R6-Parametric-Fins/CDvsMach.pdf, id=256, 620.79929pt x 428.5611pt>
+File: ../data/R6-Parametric-Fins/CDvsMach.pdf Graphic file (type pdf)
+<use ../data/R6-Parametric-Fins/CDvsMach.pdf>
+Package pdftex.def Info: ../data/R6-Parametric-Fins/CDvsMach.pdf  used on input line 265.
+(pdftex.def)             Requested size: 330.42041pt x 228.10411pt.
+[11 <../data/R6-Parametric-Fins/CDvsSweep.pdf> <../data/R6-Parametric-Fins/CDvsMach.pdf>] [12] (TR-R6.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 3003 strings out of 476392
- 48862 string characters out of 5793960
+ 3029 strings out of 476392
+ 50334 string characters out of 5793960
  1930187 words of memory out of 5000000
- 25078 multiletter control sequences out of 15000+600000
+ 25104 multiletter control sequences out of 15000+600000
  562369 words of font info for 43 fonts, out of 8000000 for 9000
  0 hyphenation exceptions out of 8191
  57i,9n,65p,302b,237s stack positions out of 10000i,1000n,20000p,200000b,200000s
  </home/prlpnrpph512/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/ecrm1000.pk> </home/prlpnrpph512/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/ecbx1200.pk> </home/prlpnrpph512/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/ecbx1440.pk>
-Output written on TR-R6.pdf (9 pages, 630672 bytes).
+Output written on TR-R6.pdf (12 pages, 693486 bytes).
 PDF statistics:
- 321 PDF objects out of 1000 (max. 8388607)
+ 494 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 81 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 101 words of extra memory for PDF output out of 10000 (max. 10000000)
 
