@@ -10,8 +10,30 @@
 
 \begin{document}
 \section{Introduction}
+\subsection{The importance of aerodynamic studies}
+At the beginning of writing of this appendix, it is valuable to emphasize the importance of 
+aerodynamic studies in case of designing the rocket.  Not only do they decrease significantly 
+the mass of the rocket but also they take a huge part in optimization of length and usage of 
+materials, which are beneficial to our not so enormous budget. Apart from that, they increase 
+the safety of the rocket in regards to testing its stability. Hence, by preforming these studies, 
+you are capable of determining how the whole structure would behave before launching, which is 
+necessary bearing in mind that it is not often that you get to test rocket models. This study 
+was mainly based on “The Modern Exterior Ballistic” written by Robert L. McCoy.
+
 \subsection{The problem of aerodynamic drag}
-Dlaczego badamy oraz wzór na opór aerodynamiczny. Że bazujemy na modern exterior balistics i jakieś inne z literatury bo to łądnie brzmi.
+Rockets have several aerodynamics characteristics that are worth attention in order to 
+estimate the performance after launch. However, in the event of designing non-controlling 
+aerodynamically rockets such as ours, the most crucial factor is aerodynamic drag coefficient. 
+Thanks to this variable it is possible to compare different configurations of the rocket so as to be able 
+to choose the most lightest one. Although, R6 rocket doesn't exceed 1 Mach, drag coefficient 
+may slightly vary depending on velocity of the rocket. This variable was calculated 
+using following formula:
+\begin{equation}
+    F_d = \frac{1}{2} \rho v^2 C_d A \quad \equiv \quad C_d = \frac{2F_d}{\rho v^2 A}
+\end{equation}
+Where: $F_d$ - drag force gained from aerodynamic simulations, $C_d$ - drag coefficient, 
+$\rho$ air density, v- velocity of the rocket, A - projectile reference area.\\\\
+
 
 \begin{comment}
 \subsection{Methodology of the present work}
@@ -30,23 +52,27 @@ compared and analyzed.
 
 \subsection{Methodology of the present work}
 For simulations, two programs were chosen to compare the results. The first program, 
-Solidworks Flow Simulation, was used for both CFDs and model preparation. The second 
+Solidworks, was used for model preparation, reference simulations and parametric studies. The second 
 program utilized was Ansys Fluent.\\\\
-Initially, the models were prepared in Solidworks and subsequently exported to 
-.step (214) file format for importation into Ansys. Within Ansys, Fluent with 
-Meshing was used to prepare the mesh, followed by the execution of simulations. 
-Solidworks Flow Simulation was also employed for mesh preparation and simulation execution, 
-enabling subsequent comparison with results obtained from Ansys Fluent.\\\\
-Parametric studies/sets were conducted for all models, encompassing nine different velocities
-ranging from 0.1 to 1.0. Subsequently, resulting graphs depicting the drag coefficient 
-versus Mach number were analyzed and compared.
+To determine optimal sweep angles and endcone angles, models of R6 Endcone and R6 NoEndcone were 
+initially prepared in Solidworks. They were subsequently subjected to tests ranging from 0.1 to 1.0 
+Mach, serving as reference points for future research. Following this, parametric studies were 
+independently conducted for the endcone and fins. Each angle of the study underwent analysis at 
+six different velocities. The results were subsequently analyzed and compared to ascertain the 
+rocket's optimal configuration.\\\\
+Furthermore, the stability of the models was assessed using OpenRocket, accounting f
+or stability changes arising from variations in endcone and fins angles.
 
 
 
 \subsection{Tested models}
-R6-Endcone, R6-No-Endcone, PrawieR5\\\\
-For each set of simulations, computational domain mesh setting and graph of velocity and 
-pressure for 0.6 mach will be shown.\\\\
+Various variations of the rocket were tested to ascertain the optimal configuration before 
+finalizing its geometry. Firstly, the PrawieR5 rocket model, a modified version from the previous year's competition 
+was examined. Subsequently, research was conducted to evaluate the impact of the endcone on 
+aerodynamic parameters. This involved testing two models: R6 Endcone and R6 NoEndcone. Both models exhibited identical stability. Afterward, the endcone and fins optimalization
+was contucted on R6 Endcone model.
+
+
 \newpage
 \section{Initial study}
 The work was initiated with the remodeled R5 model, which had been prepared in Solidworks 
@@ -267,6 +293,9 @@ point likely to be close to 65 degrees.\\\\
 \end{figure}
 
 \section{Summary}
-Results were great success, unlukcy with endcone being 4 degrees, but still great.
+In conclusion, it was found that the configuration with an endcone offers significantly better 
+aerodynamic performance than the one without. Additionally, our team successfully analyzed the 
+optimal geometry of both the endcone and fins, which differ slightly from the final configuration.
+
 
 \end{document}

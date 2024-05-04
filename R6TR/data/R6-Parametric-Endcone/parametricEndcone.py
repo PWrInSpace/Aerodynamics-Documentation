@@ -177,3 +177,13 @@ plt.tight_layout()  # Adjust the padding between and around the subplots
 
 plt.show()
 
+def ShowANSYS():
+    x = [4, 6, 8, 15]
+    y = [ForceToCD(115.46, 136), ForceToCD(113.18, 136), ForceToCD(111.46, 136), ForceToCD(104.13, 136)]
+    plt.plot(x, y, 'o-')
+    plt.xlabel("Angle of Endcone")
+    plt.ylabel("Drag coefficient")
+    plt.title('Values of Cd Value vs Angle of Endcone from ANSYS Fluent')
+    plt.show()
+
+ShowANSYS()

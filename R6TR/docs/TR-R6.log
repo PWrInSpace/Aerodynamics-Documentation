@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10) (preloaded format=pdflatex 2024.3.7)  2 MAY 2024 13:41
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10) (preloaded format=pdflatex 2024.3.7)  3 MAY 2024 17:33
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -209,196 +209,201 @@ Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
  (/home/prlpnrpph512/.miktex/texmfs/install/tex/latex/00miktex/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
-)) Excluding 'comment' comment.
-Underfull \hbox (badness 10000) in paragraph at lines 32--43
+))
+Overfull \hbox (5.26888pt too wide) in paragraph at lines 24--31
+\T1/cmr/m/n/10 Rockets have several aerodynamics characteristics that are worth attention in order to estimate the performance
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 33--36
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 32--43
+Underfull \hbox (badness 10000) in paragraph at lines 33--36
+
+ []
+
+Excluding 'comment' comment.
+Underfull \hbox (badness 10000) in paragraph at lines 54--65
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 47--50
-
+Overfull \hbox (4.06548pt too wide) in paragraph at lines 54--65
+\T1/cmr/m/n/10 serving as reference points for future research. Following this, parametric studies were independently conducted
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 47--50
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 47--50
+Underfull \hbox (badness 10000) in paragraph at lines 54--65
 
  []
 
 [1
 
 {/home/prlpnrpph512/.miktex/texmfs/data/fonts/map/pdftex/pdftex.map}]
-<../data/PrawieR5-Solid/PrawieR5-TR-Velocity-Mach06.png, id=8, 1230.84843pt x 560.8453pt>
+<../data/PrawieR5-Solid/PrawieR5-TR-Velocity-Mach06.png, id=13, 1230.84843pt x 560.8453pt>
 File: ../data/PrawieR5-Solid/PrawieR5-TR-Velocity-Mach06.png Graphic file (type png)
 <use ../data/PrawieR5-Solid/PrawieR5-TR-Velocity-Mach06.png>
-Package pdftex.def Info: ../data/PrawieR5-Solid/PrawieR5-TR-Velocity-Mach06.png  used on input line 60.
+Package pdftex.def Info: ../data/PrawieR5-Solid/PrawieR5-TR-Velocity-Mach06.png  used on input line 86.
 (pdftex.def)             Requested size: 472.03123pt x 215.08316pt.
-<../data/PrawieR5-Solid/ComputationalDomain.png, id=9, 955.31906pt x 548.80031pt>
+<../data/PrawieR5-Solid/ComputationalDomain.png, id=14, 955.31906pt x 548.80031pt>
 File: ../data/PrawieR5-Solid/ComputationalDomain.png Graphic file (type png)
 <use ../data/PrawieR5-Solid/ComputationalDomain.png>
-Package pdftex.def Info: ../data/PrawieR5-Solid/ComputationalDomain.png  used on input line 66.
+Package pdftex.def Info: ../data/PrawieR5-Solid/ComputationalDomain.png  used on input line 92.
 (pdftex.def)             Requested size: 472.03123pt x 271.1671pt.
-<../data/R6-Endcone-Solid/domain.png, id=10, 1228.59pt x 569.87906pt>
+<../data/R6-Endcone-Solid/domain.png, id=15, 1228.59pt x 569.87906pt>
 File: ../data/R6-Endcone-Solid/domain.png Graphic file (type png)
 <use ../data/R6-Endcone-Solid/domain.png>
-Package pdftex.def Info: ../data/R6-Endcone-Solid/domain.png  used on input line 75.
+Package pdftex.def Info: ../data/R6-Endcone-Solid/domain.png  used on input line 101.
 (pdftex.def)             Requested size: 472.03123pt x 218.94759pt.
-<../data/R6-Endcone-Solid/cells.png, id=11, 251.43938pt x 43.66313pt>
+<../data/R6-Endcone-Solid/cells.png, id=16, 251.43938pt x 43.66313pt>
 File: ../data/R6-Endcone-Solid/cells.png Graphic file (type png)
 <use ../data/R6-Endcone-Solid/cells.png>
-Package pdftex.def Info: ../data/R6-Endcone-Solid/cells.png  used on input line 80.
+Package pdftex.def Info: ../data/R6-Endcone-Solid/cells.png  used on input line 106.
 (pdftex.def)             Requested size: 283.22162pt x 49.18217pt.
  [2 <../data/PrawieR5-Solid/PrawieR5-TR-Velocity-Mach06.png> <../data/PrawieR5-Solid/ComputationalDomain.png>]
-<../data/R6-Endcone-Solid/mesh.png, id=15, 1304.62407pt x 395.22656pt>
+<../data/R6-Endcone-Solid/mesh.png, id=20, 1304.62407pt x 395.22656pt>
 File: ../data/R6-Endcone-Solid/mesh.png Graphic file (type png)
 <use ../data/R6-Endcone-Solid/mesh.png>
-Package pdftex.def Info: ../data/R6-Endcone-Solid/mesh.png  used on input line 86.
+Package pdftex.def Info: ../data/R6-Endcone-Solid/mesh.png  used on input line 112.
 (pdftex.def)             Requested size: 472.03123pt x 142.9991pt.
-<../data/R6-Endcone-Solid/speed.png, id=16, 1129.97156pt x 353.06906pt>
+<../data/R6-Endcone-Solid/speed.png, id=21, 1129.97156pt x 353.06906pt>
 File: ../data/R6-Endcone-Solid/speed.png Graphic file (type png)
 <use ../data/R6-Endcone-Solid/speed.png>
-Package pdftex.def Info: ../data/R6-Endcone-Solid/speed.png  used on input line 91.
+Package pdftex.def Info: ../data/R6-Endcone-Solid/speed.png  used on input line 117.
 (pdftex.def)             Requested size: 472.03123pt x 147.48526pt.
  [3 <../data/R6-Endcone-Solid/domain.png> <../data/R6-Endcone-Solid/cells.png> <../data/R6-Endcone-Solid/mesh.png>]
-<../data/R6-Endcone-Solid/pressure.png, id=20, 1139.00531pt x 341.02406pt>
+<../data/R6-Endcone-Solid/pressure.png, id=25, 1139.00531pt x 341.02406pt>
 File: ../data/R6-Endcone-Solid/pressure.png Graphic file (type png)
 <use ../data/R6-Endcone-Solid/pressure.png>
-Package pdftex.def Info: ../data/R6-Endcone-Solid/pressure.png  used on input line 97.
+Package pdftex.def Info: ../data/R6-Endcone-Solid/pressure.png  used on input line 123.
 (pdftex.def)             Requested size: 472.03123pt x 141.3246pt.
-<../data/R6-NoEndcone-Solid/domain.png, id=21, 1218.80344pt x 581.92406pt>
+<../data/R6-NoEndcone-Solid/domain.png, id=26, 1218.80344pt x 581.92406pt>
 File: ../data/R6-NoEndcone-Solid/domain.png Graphic file (type png)
 <use ../data/R6-NoEndcone-Solid/domain.png>
-Package pdftex.def Info: ../data/R6-NoEndcone-Solid/domain.png  used on input line 105.
+Package pdftex.def Info: ../data/R6-NoEndcone-Solid/domain.png  used on input line 131.
 (pdftex.def)             Requested size: 472.03123pt x 225.36893pt.
-<../data/R6-NoEndcone-Solid/cells.png, id=22, 245.41687pt x 41.4047pt>
+<../data/R6-NoEndcone-Solid/cells.png, id=27, 245.41687pt x 41.4047pt>
 File: ../data/R6-NoEndcone-Solid/cells.png Graphic file (type png)
 <use ../data/R6-NoEndcone-Solid/cells.png>
-Package pdftex.def Info: ../data/R6-NoEndcone-Solid/cells.png  used on input line 110.
+Package pdftex.def Info: ../data/R6-NoEndcone-Solid/cells.png  used on input line 136.
 (pdftex.def)             Requested size: 283.22162pt x 47.78432pt.
  [4 <../data/R6-Endcone-Solid/speed.png> <../data/R6-Endcone-Solid/pressure.png> <../data/R6-NoEndcone-Solid/domain.png>]
-<../data/R6-NoEndcone-Solid/mesh.png, id=26, 1051.67906pt x 398.23781pt>
+<../data/R6-NoEndcone-Solid/mesh.png, id=31, 1051.67906pt x 398.23781pt>
 File: ../data/R6-NoEndcone-Solid/mesh.png Graphic file (type png)
 <use ../data/R6-NoEndcone-Solid/mesh.png>
-Package pdftex.def Info: ../data/R6-NoEndcone-Solid/mesh.png  used on input line 116.
+Package pdftex.def Info: ../data/R6-NoEndcone-Solid/mesh.png  used on input line 142.
 (pdftex.def)             Requested size: 472.03123pt x 178.74353pt.
-<../data/R6-NoEndcone-Solid/speed.png, id=27, 1083.29718pt x 313.9228pt>
+<../data/R6-NoEndcone-Solid/speed.png, id=32, 1083.29718pt x 313.9228pt>
 File: ../data/R6-NoEndcone-Solid/speed.png Graphic file (type png)
 <use ../data/R6-NoEndcone-Solid/speed.png>
-Package pdftex.def Info: ../data/R6-NoEndcone-Solid/speed.png  used on input line 121.
+Package pdftex.def Info: ../data/R6-NoEndcone-Solid/speed.png  used on input line 147.
 (pdftex.def)             Requested size: 472.03123pt x 136.78523pt.
-<../data/R6-NoEndcone-Solid/konospeedoatode.png, id=28, 1096.84781pt x 268.75406pt>
+<../data/R6-NoEndcone-Solid/konospeedoatode.png, id=33, 1096.84781pt x 268.75406pt>
 File: ../data/R6-NoEndcone-Solid/konospeedoatode.png Graphic file (type png)
 <use ../data/R6-NoEndcone-Solid/konospeedoatode.png>
-Package pdftex.def Info: ../data/R6-NoEndcone-Solid/konospeedoatode.png  used on input line 127.
+Package pdftex.def Info: ../data/R6-NoEndcone-Solid/konospeedoatode.png  used on input line 153.
 (pdftex.def)             Requested size: 472.03123pt x 115.65631pt.
-<../data/DataAnalisysSolid/Solid-Studies-CD-Graph.pdf, id=29, 774.895pt x 593.21625pt>
+<../data/DataAnalisysSolid/Solid-Studies-CD-Graph.pdf, id=34, 774.895pt x 593.21625pt>
 File: ../data/DataAnalisysSolid/Solid-Studies-CD-Graph.pdf Graphic file (type pdf)
 <use ../data/DataAnalisysSolid/Solid-Studies-CD-Graph.pdf>
-Package pdftex.def Info: ../data/DataAnalisysSolid/Solid-Studies-CD-Graph.pdf  used on input line 135.
+Package pdftex.def Info: ../data/DataAnalisysSolid/Solid-Studies-CD-Graph.pdf  used on input line 161.
 (pdftex.def)             Requested size: 472.03123pt x 361.36354pt.
  [5 <../data/R6-NoEndcone-Solid/cells.png> <../data/R6-NoEndcone-Solid/mesh.png> <../data/R6-NoEndcone-Solid/speed.png> <../data/R6-NoEndcone-Solid/konospeedoatode.png>] [6 <../data/DataAnalisysSolid/Solid-Studies-CD-Graph.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 167--181
+Underfull \hbox (badness 10000) in paragraph at lines 193--207
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 167--181
+Underfull \hbox (badness 10000) in paragraph at lines 193--207
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 167--181
+Underfull \hbox (badness 10000) in paragraph at lines 193--207
 
  []
 
-<../data/R6-Parametric-Endcone/ExampleCdGraphs.pdf, id=47, 629.4717pt x 389.5353pt>
+<../data/R6-Parametric-Endcone/ExampleCdGraphs.pdf, id=52, 629.4717pt x 389.5353pt>
 File: ../data/R6-Parametric-Endcone/ExampleCdGraphs.pdf Graphic file (type pdf)
 <use ../data/R6-Parametric-Endcone/ExampleCdGraphs.pdf>
-Package pdftex.def Info: ../data/R6-Parametric-Endcone/ExampleCdGraphs.pdf  used on input line 186.
+Package pdftex.def Info: ../data/R6-Parametric-Endcone/ExampleCdGraphs.pdf  used on input line 212.
 (pdftex.def)             Requested size: 472.03123pt x 292.1032pt.
-<../data/R6-Parametric-Endcone/ForceVsAngle.pdf, id=48, 631.63983pt x 403.26662pt>
+<../data/R6-Parametric-Endcone/ForceVsAngle.pdf, id=53, 631.63983pt x 403.26662pt>
 File: ../data/R6-Parametric-Endcone/ForceVsAngle.pdf Graphic file (type pdf)
 <use ../data/R6-Parametric-Endcone/ForceVsAngle.pdf>
-Package pdftex.def Info: ../data/R6-Parametric-Endcone/ForceVsAngle.pdf  used on input line 192.
+Package pdftex.def Info: ../data/R6-Parametric-Endcone/ForceVsAngle.pdf  used on input line 218.
 (pdftex.def)             Requested size: 377.62642pt x 241.09421pt.
 [7 <../data/R6-Parametric-Endcone/ExampleCdGraphs.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 195--202
+Underfull \hbox (badness 10000) in paragraph at lines 221--228
 
  []
 
-<../data/R6-Parametric-Endcone/CdVsAngle.pdf, id=93, 583.21887pt x 348.34142pt>
+<../data/R6-Parametric-Endcone/CdVsAngle.pdf, id=98, 583.21887pt x 348.34142pt>
 File: ../data/R6-Parametric-Endcone/CdVsAngle.pdf Graphic file (type pdf)
 <use ../data/R6-Parametric-Endcone/CdVsAngle.pdf>
-Package pdftex.def Info: ../data/R6-Parametric-Endcone/CdVsAngle.pdf  used on input line 205.
+Package pdftex.def Info: ../data/R6-Parametric-Endcone/CdVsAngle.pdf  used on input line 231.
 (pdftex.def)             Requested size: 377.62642pt x 225.55284pt.
-<../data/R6-Parametric-Endcone/comparisone2plots.pdf, id=94, 638.1441pt x 281.85298pt>
+<../data/R6-Parametric-Endcone/comparisone2plots.pdf, id=99, 638.1441pt x 281.85298pt>
 File: ../data/R6-Parametric-Endcone/comparisone2plots.pdf Graphic file (type pdf)
 <use ../data/R6-Parametric-Endcone/comparisone2plots.pdf>
-Package pdftex.def Info: ../data/R6-Parametric-Endcone/comparisone2plots.pdf  used on input line 213.
+Package pdftex.def Info: ../data/R6-Parametric-Endcone/comparisone2plots.pdf  used on input line 239.
 (pdftex.def)             Requested size: 377.62642pt x 166.7907pt.
 [8 <../data/R6-Parametric-Endcone/ForceVsAngle.pdf> <../data/R6-Parametric-Endcone/CdVsAngle.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 216--224
+Underfull \hbox (badness 10000) in paragraph at lines 242--250
 
  []
 
 [9 <../data/R6-Parametric-Endcone/comparisone2plots.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 229--238
+Underfull \hbox (badness 10000) in paragraph at lines 255--264
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 229--238
+Underfull \hbox (badness 10000) in paragraph at lines 255--264
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 229--238
+Underfull \hbox (badness 10000) in paragraph at lines 255--264
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 229--238
+Underfull \hbox (badness 10000) in paragraph at lines 255--264
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 229--238
+Underfull \hbox (badness 10000) in paragraph at lines 255--264
 
  []
 
-<../data/R6-Parametric-Fins/ForceVsSweepAngle.pdf, id=217, 462.52798pt x 346.89601pt>
+<../data/R6-Parametric-Fins/ForceVsSweepAngle.pdf, id=222, 462.52798pt x 346.89601pt>
 File: ../data/R6-Parametric-Fins/ForceVsSweepAngle.pdf Graphic file (type pdf)
 <use ../data/R6-Parametric-Fins/ForceVsSweepAngle.pdf>
-Package pdftex.def Info: ../data/R6-Parametric-Fins/ForceVsSweepAngle.pdf  used on input line 243.
+Package pdftex.def Info: ../data/R6-Parametric-Fins/ForceVsSweepAngle.pdf  used on input line 269.
 (pdftex.def)             Requested size: 377.62642pt x 283.23383pt.
-<../data/R6-Parametric-Fins/CDvsSweep.pdf, id=218, 677.89258pt x 443.7378pt>
+<../data/R6-Parametric-Fins/CDvsSweep.pdf, id=223, 677.89258pt x 443.7378pt>
 File: ../data/R6-Parametric-Fins/CDvsSweep.pdf Graphic file (type pdf)
 <use ../data/R6-Parametric-Fins/CDvsSweep.pdf>
-Package pdftex.def Info: ../data/R6-Parametric-Fins/CDvsSweep.pdf  used on input line 253.
+Package pdftex.def Info: ../data/R6-Parametric-Fins/CDvsSweep.pdf  used on input line 279.
 (pdftex.def)             Requested size: 377.62642pt x 247.19145pt.
 [10 <../data/R6-Parametric-Fins/ForceVsSweepAngle.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 256--262
+Underfull \hbox (badness 10000) in paragraph at lines 282--288
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 256--262
+Underfull \hbox (badness 10000) in paragraph at lines 282--288
 
  []
 
-<../data/R6-Parametric-Fins/CDvsMach.pdf, id=256, 620.79929pt x 428.5611pt>
+<../data/R6-Parametric-Fins/CDvsMach.pdf, id=261, 620.79929pt x 428.5611pt>
 File: ../data/R6-Parametric-Fins/CDvsMach.pdf Graphic file (type pdf)
 <use ../data/R6-Parametric-Fins/CDvsMach.pdf>
-Package pdftex.def Info: ../data/R6-Parametric-Fins/CDvsMach.pdf  used on input line 265.
+Package pdftex.def Info: ../data/R6-Parametric-Fins/CDvsMach.pdf  used on input line 291.
 (pdftex.def)             Requested size: 330.42041pt x 228.10411pt.
 [11 <../data/R6-Parametric-Fins/CDvsSweep.pdf> <../data/R6-Parametric-Fins/CDvsMach.pdf>] [12] (TR-R6.aux)
  ***********
@@ -407,17 +412,17 @@ L3 programming layer <2024-02-20>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 3029 strings out of 476392
- 50334 string characters out of 5793960
- 1930187 words of memory out of 5000000
- 25104 multiletter control sequences out of 15000+600000
+ 3031 strings out of 476392
+ 50394 string characters out of 5793960
+ 1934187 words of memory out of 5000000
+ 25106 multiletter control sequences out of 15000+600000
  562369 words of font info for 43 fonts, out of 8000000 for 9000
  0 hyphenation exceptions out of 8191
  57i,9n,65p,302b,237s stack positions out of 10000i,1000n,20000p,200000b,200000s
- </home/prlpnrpph512/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/ecrm1000.pk> </home/prlpnrpph512/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/ecbx1200.pk> </home/prlpnrpph512/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/ecbx1440.pk>
-Output written on TR-R6.pdf (12 pages, 693486 bytes).
+ </home/prlpnrpph512/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/ecrm1000.pk> </home/prlpnrpph512/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/ecbx1200.pk> </home/prlpnrpph512/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/ecbx1440.pk></home/prlpnrpph512/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi10.pfb></home/prlpnrpph512/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi7.pfb></home/prlpnrpph512/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmr10.pfb></home/prlpnrpph512/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmr7.pfb></home/prlpnrpph512/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on TR-R6.pdf (12 pages, 738782 bytes).
 PDF statistics:
- 494 PDF objects out of 1000 (max. 8388607)
+ 517 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  101 words of extra memory for PDF output out of 10000 (max. 10000000)
 
