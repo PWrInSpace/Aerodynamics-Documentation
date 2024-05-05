@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1714899739.62727 "/home/prlpnrpph512/Documents/PWRINSPACE/Aerodynamics-Documentation/R6TR/docs/TR-R6.tex" "TR-R6.pdf" "TR-R6" 1714899740.60926 0
+["pdflatex"] 1714913094.26928 "/home/prlpnrpph512/Documents/PWRINSPACE/Aerodynamics-Documentation/R6TR/docs/TR-R6.tex" "TR-R6.pdf" "TR-R6" 1714913095.27344 0
   "../data/DataAnalisysSolid/Solid-Studies-CD-Graph.pdf" 1714133359.96588 5657 80a93941a716abec7466e59ccca567d2 ""
   "../data/OR/EndconeStability.png" 1714899457.74459 20885 004c2b97dfeceefd39b4588d3980956c ""
   "../data/OR/FinStability.png" 1714899471.88474 21206 3a67f308d0de939ae9017eab6f2eccc5 ""
@@ -38,6 +38,7 @@
   "/home/prlpnrpph512/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmr10.pfb" 1691060140.03849 35752 024fb6c41858982481f6968b5fc26508 ""
   "/home/prlpnrpph512/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmr7.pfb" 1691060140.05049 32762 224316ccc9ad3ca0423a14971cfa7fc1 ""
   "/home/prlpnrpph512/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy10.pfb" 1691060140.09849 32569 5e5ddc8df908dea60932f3c484a54c0d ""
+  "/home/prlpnrpph512/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy7.pfb" 1691060140.10649 32716 08e384dc442464e7285e891af9f45947 ""
   "/home/prlpnrpph512/.miktex/texmfs/install/tex/context/base/mkii/supp-pdf.mkii" 1691060134.06644 71627 94eb9990bed73c364d7f53f960cc8c5b ""
   "/home/prlpnrpph512/.miktex/texmfs/install/tex/generic/iftex/iftex.sty" 1691060124.51036 7237 bdd120a32c8fdb4b433cf9ca2e7cd98a ""
   "/home/prlpnrpph512/.miktex/texmfs/install/tex/generic/iftex/ifvtex.sty" 1691060124.51036 1057 525c2192b5febbd8c1f662c9468335bb ""
@@ -62,9 +63,9 @@
   "/home/prlpnrpph512/.miktex/texmfs/install/tex/latex/graphics/keyval.sty" 1691060122.79035 2671 7e67d78d9b88c845599a85b2d41f2e39 ""
   "/home/prlpnrpph512/.miktex/texmfs/install/tex/latex/graphics/trig.sty" 1691060122.79435 4023 293ea1c16429fc0c4cf605f4da1791a9 ""
   "/home/prlpnrpph512/.miktex/texmfs/install/tex/latex/l3backend/l3backend-pdftex.def" 1709810338.67238 30006 3d512c0edd558928ddea1690180ef77e ""
-  "/home/prlpnrpph512/Documents/PWRINSPACE/Aerodynamics-Documentation/R6TR/docs/TR-R6.tex" 1714899738.01927 15146 2ef3888e6bc9f2333e9312f26780e2ab ""
-  "TR-R6.aux" 1714899740.50329 5787 558d85c51153d935a39fa702c9ff1177 "pdflatex"
-  "TR-R6.tex" 1714899738.01927 15146 2ef3888e6bc9f2333e9312f26780e2ab ""
+  "/home/prlpnrpph512/Documents/PWRINSPACE/Aerodynamics-Documentation/R6TR/docs/TR-R6.tex" 1714913092.81427 15679 6d46e17a2e4d258749c5f03f6cef007e ""
+  "TR-R6.aux" 1714913095.16629 6152 28f121dca6b467c1d0d476f6f007466c "pdflatex"
+  "TR-R6.tex" 1714913092.81427 15679 6d46e17a2e4d258749c5f03f6cef007e ""
   (generated)
   "TR-R6.aux"
   "TR-R6.log"

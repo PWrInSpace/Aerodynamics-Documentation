@@ -24,6 +24,7 @@ for i in range(0, len(content)):
     averages[key][1] += float(content[i][2])
 
 averages[15][1] /=6
+print(averages)
 
 def plotAverages(averages):
     # Separate keys and average values into two lists for plotting
@@ -41,6 +42,7 @@ def plotAverages(averages):
     plt.title('Average values of Force vs Angle of endcone')
     plt.grid(True)
     plt.show()
+
 
 
 

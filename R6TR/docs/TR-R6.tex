@@ -7,6 +7,8 @@
 \usepackage{graphicx}
 \usepackage{float}
 
+\newcommand{\degree}{\ensuremath{^\circ}}
+
 
 \begin{document}
 \section{Introduction}
@@ -32,7 +34,7 @@ using following formula:
     F_d = \frac{1}{2} \rho v^2 C_d A \quad \equiv \quad C_d = \frac{2F_d}{\rho v^2 A}
 \end{equation}
 Where: $F_d$ - drag force gained from aerodynamic simulations, $C_d$ - drag coefficient, 
-$\rho$ air density, v- velocity of the rocket, A - projectile reference area.\\\\
+$\rho$ air density, v- velocity of the rocket, A - rocket maximum cross-section area.\\\\
 
 
 \begin{comment}
@@ -62,8 +64,8 @@ six different velocities. The results were subsequently analyzed and compared to
 rocket's optimal configuration.\\\\
 For simulations in Solidwors and in Ansys, adiabatic flow was assumed and friction forces were
 neglected. Ansys solver calculated denisty changes using ideal gas equation.\\\\
-Furthermore, the stability of the models was assessed using OpenRocket, accounting f
-or stability changes arising from variations in endcone and fins angles.
+Furthermore, the stability of the models was assessed using OpenRocket, accounting for 
+stability changes arising from variations in endcone and fins angles.
 
 
 
@@ -177,7 +179,7 @@ Mesh and domain settings for following simulations are the same as in the prelim
 R6-Endcone model. Cell count changed slightly with the change of the endcone angle, but it was
 negligible.
 
-\subsection{Results}
+\subsection{Example graphs from the study}
 
 \begin{figure}[H]
     \centering
@@ -185,22 +187,15 @@ negligible.
     \caption{Example of CD graphs for different endcone angles}
 \end{figure}
 
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=\textwidth]{../data/R6-Parametric-Endcone/ForceVsAngle.pdf}
-    \caption{Average Force vs Angle graph}
-\end{figure}
-
 
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.9\textwidth]{../data/R6-Parametric-Endcone/CdVsAngle.pdf}
     \caption{Drag coefficient vs Angle graph}
+    \label{fig:CdVsAngleEndcone}
 \end{figure}
 
 
-
-\newpage
 
 \section{Optimalization of the fins in Solidworks}
 \subsection{Range and goal of this study}
@@ -215,24 +210,18 @@ One important note is that for the rest of this study, we will call the angle 90
 angle just sweep angle.\\\\
 
 
-\subsection{Results}
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=1\textwidth]{../data/R6-Parametric-Fins/ForceVsSweepAngle.pdf}
-    \caption{Average Force Value vs Sweep Angle}
-    \label{fig:ForceVsSweepAngle}
-\end{figure}
+\subsection{Example graphs from the study}
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.8\textwidth]{../data/R6-Parametric-Fins/CDvsSweep.pdf}
+    \includegraphics[width=0.7\textwidth]{../data/R6-Parametric-Fins/CDvsSweep.pdf}
     \caption{Drag coefficient vs Sweep Angle}
     \label{fig:CdVsSweep}
 \end{figure}
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.8\textwidth]{../data/R6-Parametric-Fins/CDvsMach.pdf}
+    \includegraphics[width=0.7\textwidth]{../data/R6-Parametric-Fins/CDvsMach.pdf}
     \caption{Similarity of curves of drag coefficient vs Mach for different sweep angles}
 \end{figure}
 
@@ -247,15 +236,16 @@ angle just sweep angle.\\\\
     \includegraphics[width=0.7\textwidth]{../data/OR/FinStability.png}
     \caption{Stability graph vs Sweep Angle}
 \end{figure}
-\section{Summary}
+\section{Results and discussion}
 In conclusion, it was found that the configuration with an endcone offers significantly better 
-aerodynamic performance than the one without. Additionally, optimal sweep angle was found.
+aerodynamic performance than the one without. Additionally, optimal sweep angle was determined.
 \subsection{Results of the preliminary research}
 
 \begin{figure}[H]
     \centering
     \includegraphics[width=\textwidth]{../data/DataAnalisysSolid/Solid-Studies-CD-Graph.pdf}
     \caption{CD graph of R6-Endcone and R6-NoEndcone models}
+    \label{fig:preliminary}
 \end{figure}
 Preliminary research indicates that the endcone model exhibits significantly lower drag coefficient
 for 4.29 degrees endcone angle, while keeping similiar trends of change. Even more, for endcone model
@@ -282,41 +272,66 @@ model is much more aerodynamically efficient.
 \newpage
 
 \subsection{Results of Endcone Optimalization}
-The minimum of the average drag force function was found to be at 7 degrees. We can also 
-observe a trend of the function, which is decreasing for the range of 3 to 7 degrees and increasing
-for the range of 9 to 15 degrees.\\\\
-Spike at 6 degree is worth mentioning, it may be true value at this point or just a result of
-the simulation error. This would require further research to determine the validity of this spike, however 
-it is not crucial for the optimalization of the rocket, since it is much higher than the minimum 
-of the function and it's unlikely that noise of simulation was that high, especially that it can 
-be seen at graphs of all example Cd vs Angle graphs for certain Mach number.
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.9\textwidth]{../data/R6-Parametric-Endcone/comparisone2plots.pdf}
+    \includegraphics[width=\textwidth]{../data/R6-Parametric-Endcone/ForceVsAngle.pdf}
+    \caption{Average Force vs Angle graph}
+\end{figure}
+The minimum of the average drag force function was observed at 7 degrees. Additionally, a 
+decreasing trend was noted within the range of 3 to 7 degrees, followed by an increase 
+from 9 to 15 degrees.
+\begin{table}[h]
+    \centering
+    \begin{tabular}{|c|c|c|c|}
+    \hline
+    Encone Angle [$\degree$]& Force [N]& $F_{min}$ [N] & $F/F_{min}$ \%\\
+    \hline
+    4 & 80.64 & 77.37 & 104.22\% \\
+    \hline
+    \end{tabular}
+    \caption{Comparison of average force for 4 degrees to the minimum of the function}
+    \label{tab:ChangeInForce}
+\end{table}
+
+\noindent Comparing the average force at 4 degrees to the function's minimum, we observe a 
+negligible difference of 4.22\% higher in the average force. Hence, no geometry changes were 
+deemed necessary for optimal performance.\\\\
+It's worth noting a spike at 6 degrees, which could either represent a true value or a 
+simulation error. Further investigation is warranted to confirm its validity. However, given 
+its considerable deviation from the function's minimum and its consistent appearance across 
+various Cd vs Angle graphs from Figure \ref{fig:CdVsAngleEndcone}, it's unlikely to 
+be an significant error.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{../data/R6-Parametric-Endcone/comparisone2plots.pdf}
     \caption{Comparison of Drag coefficient vs Mach graph trends for different endcone angles}
 \end{figure}
-\noindent Key observation is that the transonic spike starts later for the endcone model with optimal
-endcone angles, which
-is very beneficial for the range of 0.6 to 0.9 Mach. This is an important finding from the
-perspective of future rocket projects, where the rocket will be operating in this range of Mach.
-For such rockets, optimal endconoe angle could generate significant savings in energy.\\\\
-This observation could be already noticed in the preliminary research, where the Endcone model
-exhibited decreasing trend of drag coefficient for the range of 0.6 to 0.8 Mach, while the NoEndcone
-model exhibited a significant increase trend from 0.5 Mach forwards.
+\noindent A key observation is that the transonic spike commences later for the endcone 
+model with optimal endcone angles, offering considerable advantages within the Mach range 
+of 0.6 to 0.9. This finding holds substantial significance for future rocket projects operating 
+within this Mach range, where optimal endcone angles could lead to notable energy savings.\\\\
+This finding was evident even in preliminary research in Figure \ref{fig:preliminary}, where the Endcone model displayed a 
+decreasing trend in drag coefficient within the Mach range of 0.6 to 0.8, contrasting with the 
+NoEndcone model, which exhibited a notable increase trend from 0.5 Mach onwards.
 
-\subsection{Discussion of Fin Optimalization}
-As shown in the Figure \ref{fig:ForceVsSweepAngle}, the minimum of the average drag force function is at 30 degrees. The function
-is increasing for whole tested range, with relatively small local extremums at 35 and 65 degrees. This
-means that the optimal sweep angle for the fins is 30 degrees. It could be also assumed that the
-trend will continue to decrease for the range of 30 to 0 degrees, however too small sweep angle
-would be impractical for the rocket, so it was not tested.\\\\
-
-Figure \ref{fig:CdVsSweep} shows the same trend as the average drag force function, but 
-also confirms the existence of characteristic local extremums at 35 and 65 degrees. This is a very
- important finding from the perspective of the optimalization of the rocket, since when desinginig 
-the rocket, there was a prefered range of sweep angle. This study now clearly shows that when 
-deling with the range of the sweep angle from 55 to 90 degrees, most aerodynamicly efficient
-point likely to be close to 65 degrees.
+\subsection{Results of Fin Optimalization}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\textwidth]{../data/R6-Parametric-Fins/ForceVsSweepAngle.pdf}
+    \caption{Average Force Value vs Sweep Angle}
+    \label{fig:ForceVsSweepAngle}
+\end{figure}
+As depicted in Figure \ref{fig:ForceVsSweepAngle}, the minimum value of the average drag force 
+function within this range is observed at 30 degrees. The function exhibits a continuous increase 
+throughout the tested range, with relatively minor local extremums noted at 35 and 65 degrees. It 
+can be inferred that the trend would likely persist towards decreasing values within the range of 
+30 to 0 degrees; however, excessively small sweep angles were deemed impractical for the rocket 
+and thus were not included in the testing.\\\\
+Figure \ref{fig:CdVsSweep} demonstrates a similar trend to that of the average drag force f
+unction, further indicating the presence of characteristic local extremums at 35 and 65 degrees. 
+This discovery holds significant importance in optimizing the rocket design, particularly 
+considering the preferred range of sweep angles during the rocket's conceptualization.
 
 
 \end{document}
