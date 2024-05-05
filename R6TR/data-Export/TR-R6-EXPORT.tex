@@ -1,18 +1,5 @@
-\documentclass{article}
-
-\usepackage{amsmath}
-\usepackage[T1]{fontenc}
-\usepackage[margin=2.5cm]{geometry}
-\usepackage{comment}
-\usepackage{graphicx}
-\usepackage{float}
-
-\newcommand{\degree}{\ensuremath{^\circ}}
-
-
-\begin{document}
-\section{Introduction}
-\subsection{The importance of aerodynamic studies}
+\subsection{Introduction}
+\subsubsection{The importance of aerodynamic studies}
 At the beginning of writing of this appendix, it is valuable to emphasize the importance of 
 aerodynamic studies in case of designing the rocket.  Not only do they decrease significantly 
 the mass of the rocket but also they take a huge part in optimization of length and usage of 
@@ -22,7 +9,7 @@ you are capable of determining how the whole structure would behave before launc
 necessary bearing in mind that it is not often that you get to test rocket models. This study 
 was mainly based on “The Modern Exterior Ballistic” written by Robert L. McCoy.
 
-\subsection{The problem of aerodynamic drag}
+\subsubsection{The problem of aerodynamic drag}
 Rockets have several aerodynamics characteristics that are worth attention in order to 
 estimate the performance after launch. However, in the event of designing non-controlling 
 aerodynamically rockets such as ours, the most crucial factor is aerodynamic drag coefficient. 
@@ -37,22 +24,9 @@ Where: $F_d$ - drag force gained from aerodynamic simulations, $C_d$ - drag coef
 $\rho$ air density, v- velocity of the rocket, A - rocket maximum cross-section area.\\\\
 
 
-\begin{comment}
-\subsection{Methodology of the present work}
-For simulations we choose two programs to compare the results. The first one is 
-Solidworks Flow Simulation, in which we also prepared models for simulations. 
-The second one is Ansys Fluent.\\\\
-First we prepared the models in Solidworks and from there we exported them to 
-.step (214) file format to import them to Ansys. In Ansys we used Fluent with
-Meshing to prepare the mesh and then we run the simulations. Solidworks Flow Simulation
-was also used to prepare the mesh and run the simulations, which we later compared with
-Ansys Fluent results.\\\\
-All models were tested using Parametric studies/sets for 9 different velocities 
-from 0.1 to 1.0. The resulting graphs of drag coefficient vs mach number were 
-compared and analyzed.
-\end{comment}
 
-\subsection{Methodology of the present work}
+
+\subsubsection{Methodology of the present work}
 For simulations, two programs were chosen to compare the results. The first program, 
 Solidworks, was used for model preparation, reference simulations and parametric studies. The second 
 program utilized was Ansys Fluent.\\\\
@@ -69,7 +43,7 @@ stability changes arising from variations in endcone and fins angles.
 
 
 
-\subsection{Tested models}
+\subsubsection{Tested models}
 Various variations of the rocket were tested to ascertain the optimal configuration before 
 finalizing its geometry. Firstly, the PrawieR5 rocket model, a modified version from the previous year's competition 
 was examined. Subsequently, research was conducted to evaluate the impact of the endcone on 
@@ -78,7 +52,7 @@ was contucted on R6 Endcone model.
 
 
 \newpage
-\section{Initial study}
+\subsection{Initial study}
 The work was initiated with the remodeled R5, which had been prepared in Solidworks 
 and featured an endcone, a modification in comparison to the original R5 model. Subsequent 
 testing of the model was conducted using Solidworks Flow Simulation. However, this model 
@@ -89,82 +63,82 @@ results can be observed bellow.
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.9\textwidth]{../data/PrawieR5-Solid/PrawieR5-TR-Velocity-Mach06.png}
+    \includegraphics[width=0.9\textwidth]{sections/CFD/data/PrawieR5-Solid/PrawieR5-TR-Velocity-Mach06.png}
     \caption{Velocity graph for PrawieR5 model at Mach 0.6}
 \end{figure}
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=\textwidth]{../data/PrawieR5-Solid/plotZD.pdf}
+    \includegraphics[width=\textwidth]{sections/CFD/data/PrawieR5-Solid/plotZD.pdf}
     \caption{CD graph for PrawieR5 model at Mach 0.6}
 \end{figure}
 
 
 
-\section{Preliminary research of endcone effect in Solidworks}
-\subsection{R6 Endcone}
+\subsection{Preliminary research of endcone effect in Solidworks}
+\subsubsection{R6 Endcone}
 \begin{figure}[H]
     \centering
-    \includegraphics[width=\textwidth]{../data/R6-Endcone-Solid/domain.png}
+    \includegraphics[width=\textwidth]{sections/CFD/data/R6-Endcone-Solid/domain.png}
     \caption{Computational domain for R6-Endcone model}
 \end{figure}
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.6\textwidth]{../data/R6-Endcone-Solid/cells.png}
+    \includegraphics[width=0.6\textwidth]{sections/CFD/data/R6-Endcone-Solid/cells.png}
     \caption{Cell number for R6-Endcone model}
 \end{figure}
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=\textwidth]{../data/R6-Endcone-Solid/mesh.png}
+    \includegraphics[width=\textwidth]{sections/CFD/data/R6-Endcone-Solid/mesh.png}
     \caption{Mesh for R6-Endcone model}
 \end{figure}
 \begin{figure}[H]
     \centering
-    \includegraphics[width=\textwidth]{../data/R6-Endcone-Solid/speed.png}
+    \includegraphics[width=\textwidth]{sections/CFD/data/R6-Endcone-Solid/speed.png}
     \caption{Velocity graph at 0.6 Mach for R6-Endcone model}
 \end{figure}
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=\textwidth]{../data/R6-Endcone-Solid/pressure.png}
+    \includegraphics[width=\textwidth]{sections/CFD/data/R6-Endcone-Solid/pressure.png}
     \caption{Pressure graph at 0.6 Mach for R6-Endcone model}
 \end{figure}
 
-\subsection{R6 No Endcone}
+\subsubsection{R6 No Endcone}
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=\textwidth]{../data/R6-NoEndcone-Solid/domain.png}
+    \includegraphics[width=\textwidth]{sections/CFD/data/R6-NoEndcone-Solid/domain.png}
     \caption{Computational domain for R6-NoEndcone model}
 \end{figure}
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.6\textwidth]{../data/R6-NoEndcone-Solid/cells.png}
+    \includegraphics[width=0.6\textwidth]{sections/CFD/data/R6-NoEndcone-Solid/cells.png}
     \caption{Cell number for R6-NoEndcone model}
 \end{figure}
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=\textwidth]{../data/R6-NoEndcone-Solid/mesh.png}
+    \includegraphics[width=\textwidth]{sections/CFD/data/R6-NoEndcone-Solid/mesh.png}
     \caption{Mesh for R6-NoEndcone model}
 \end{figure}
 \begin{figure}[H]
     \centering
-    \includegraphics[width=\textwidth]{../data/R6-NoEndcone-Solid/speed.png}
+    \includegraphics[width=\textwidth]{sections/CFD/data/R6-NoEndcone-Solid/speed.png}
     \caption{Velocity graph at 0.6 Mach for R6-NoEndcone    model}
 \end{figure}
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=\textwidth]{../data/R6-NoEndcone-Solid/konospeedoatode.png}
+    \includegraphics[width=\textwidth]{sections/CFD/data/R6-NoEndcone-Solid/konospeedoatode.png}
     \caption{Pressure graph at 0.6 Mach for R6-NoEndcone model}
 \end{figure}
 
 
 
-\section{Oplitmalization of the endcone in Solidworks}
-\subsection{Range and goal of this study}
+\subsection{Oplitmalization of the endcone in Solidworks}
+\subsubsection{Range and goal of this study}
 The goal of this study was to find a minimum of the average drag force function, depending on
 the endcone angle, which was coupled to the lenght of the endcone. The range of the
 study was from 3 to 15 degrees, with a step of 1 degree. For each angle, simulations were preformed for 
@@ -180,26 +154,26 @@ Mesh and domain settings for following simulations are the same as in the prelim
 R6-Endcone model. Cell count changed slightly with the change of the endcone angle, but it was
 negligible.
 
-\subsection{Example graphs from the study}
+\subsubsection{Example graphs from the study}
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.9\textwidth]{../data/R6-Parametric-Endcone/ExampleCdGraphs.pdf}
+    \includegraphics[width=0.9\textwidth]{sections/CFD/data/R6-Parametric-Endcone/ExampleCdGraphs.pdf}
     \caption{Example of CD graphs for different endcone angles}
 \end{figure}
 
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.9\textwidth]{../data/R6-Parametric-Endcone/CdVsAngle.pdf}
+    \includegraphics[width=0.9\textwidth]{sections/CFD/data/R6-Parametric-Endcone/CdVsAngle.pdf}
     \caption{Drag coefficient vs Angle graph}
     \label{fig:CdVsAngleEndcone}
 \end{figure}
 
 
 
-\section{Optimalization of the fins in Solidworks}
-\subsection{Range and goal of this study}
+\subsection{Optimalization of the fins in Solidworks}
+\subsubsection{Range and goal of this study}
 The goal of this study was to find the most optimal sweep angle of the fins for the R6 model. 
 Only parameter was 90 degrees minus sweep angle, the lenght of top of fin, lenght of bottom of fin and height of 
 fin were kept constant. The range of the study was from 30 to 90 degrees, with a step of 5 degree. 
@@ -211,40 +185,40 @@ One important note is that for the rest of this study, we will call the angle 90
 angle just sweep angle.\\\\
 
 
-\subsection{Example graphs from the study}
+\subsubsection{Example graphs from the study}
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.7\textwidth]{../data/R6-Parametric-Fins/CDvsSweep.pdf}
+    \includegraphics[width=0.7\textwidth]{sections/CFD/data/R6-Parametric-Fins/CDvsSweep.pdf}
     \caption{Drag coefficient vs Sweep Angle}
     \label{fig:CdVsSweep}
 \end{figure}
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.8\textwidth]{../data/R6-Parametric-Fins/CDvsMach.pdf}
+    \includegraphics[width=0.8\textwidth]{sections/CFD/data/R6-Parametric-Fins/CDvsMach.pdf}
     \caption{Similarity of curves of drag coefficient vs Mach for different sweep angles}
 \end{figure}
 
-\section{Stability changes from OpenRocket}
+\subsection{Stability changes from OpenRocket}
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.8\textwidth]{../data/OR/EndconeStability.pdf}
+    \includegraphics[width=0.8\textwidth]{sections/CFD/data/OR/EndconeStability.pdf}
     \caption{Stability graph vs Enconde Angle}
 \end{figure}
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.7\textwidth]{../data/OR/FinStability.pdf}
+    \includegraphics[width=0.7\textwidth]{sections/CFD/data/OR/FinStability.pdf}
     \caption{Stability graph vs Sweep Angle}
 \end{figure}
-\section{Results and discussion}
+\subsection{Results and discussion}
 In conclusion, it was found that the configuration with an endcone offers significantly better 
 aerodynamic performance than the one without. Additionally, optimal sweep angle was determined.
-\subsection{Results of the preliminary research}
+\subsubsection{Results of the preliminary research}
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=\textwidth]{../data/DataAnalisysSolid/solidPreliminary.pdf}
+    \includegraphics[width=\textwidth]{sections/CFD/data/DataAnalisysSolid/solidPreliminary.pdf}
     \caption{CD graph of R6-Endcone and R6-NoEndcone models}
     \label{fig:preliminary}
 \end{figure}
@@ -272,10 +246,10 @@ comparison to the no endcone model. This is a significant difference, indicating
 model is much more aerodynamically efficient.
 \newpage
 
-\subsection{Results of Endcone Optimalization}
+\subsubsection{Results of Endcone Optimalization}
 \begin{figure}[H]
     \centering
-    \includegraphics[width=\textwidth]{../data/R6-Parametric-Endcone/ForceVsAngle.pdf}
+    \includegraphics[width=\textwidth]{sections/CFD/data/R6-Parametric-Endcone/ForceVsAngle.pdf}
     \caption{Average Force vs Angle graph}
 \end{figure}
 The minimum of the average drag force function was observed at 7 degrees. Additionally, a 
@@ -305,7 +279,7 @@ be an significant error.
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=\textwidth]{../data/R6-Parametric-Endcone/comparisone2plots.pdf}
+    \includegraphics[width=\textwidth]{sections/CFD/data/R6-Parametric-Endcone/comparisone2plots.pdf}
     \caption{Comparison of Drag coefficient vs Mach graph trends for different endcone angles}
 \end{figure}
 \noindent A key observation is that the transonic spike commences later for the endcone 
@@ -316,10 +290,10 @@ This finding was evident even in preliminary research in Figure \ref{fig:prelimi
 decreasing trend in drag coefficient within the Mach range of 0.6 to 0.8, contrasting with the 
 NoEndcone model, which exhibited a notable increase trend from 0.5 Mach onwards.
 
-\subsection{Results of Fin Optimalization}
+\subsubsection{Results of Fin Optimalization}
 \begin{figure}[H]
     \centering
-    \includegraphics[width=1\textwidth]{../data/R6-Parametric-Fins/ForceVsSweepAngle.pdf}
+    \includegraphics[width=1\textwidth]{sections/CFD/data/R6-Parametric-Fins/ForceVsSweepAngle.pdf}
     \caption{Average Force Value vs Sweep Angle}
     \label{fig:ForceVsSweepAngle}
 \end{figure}
@@ -334,5 +308,3 @@ unction, further indicating the presence of characteristic local extremums at 35
 This discovery holds significant importance in optimizing the rocket design, particularly 
 considering the preferred range of sweep angles during the rocket's conceptualization.
 
-
-\end{document}
