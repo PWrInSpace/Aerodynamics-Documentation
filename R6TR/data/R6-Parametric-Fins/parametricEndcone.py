@@ -38,9 +38,10 @@ def plotAverages(averages):
 
     # Plot averages
     plt.plot(keys, values, 'o-')
-    plt.xlabel("Sweep Angle")
-    plt.ylabel("Average Force value")
+    plt.xlabel("Sweep Angle [degrees]")
+    plt.ylabel("Average Force value [N]")
     plt.title('Average values of Force vs Sweep Angle')
+    plt.grid(True)
     plt.show()
 
 
@@ -68,6 +69,7 @@ def plotExampleValues(content):
     plt.ylabel("Drag coefficient")
     plt.title('Cd Values for Different Sweep Angles')
     plt.legend()  # Add a legend
+    plt.grid(True)
     plt.show()
 
 def plotCdVsAngle(content):
@@ -83,10 +85,11 @@ def plotCdVsAngle(content):
     plt.plot(y, x1, 'o-', label='Mach 0.2')
     plt.plot(y, x2, 'o-', label='Mach 0.4')
     plt.plot(y, x3, 'o-', label='Mach 0.6')
-    plt.xlabel("Sweep Angle")
+    plt.xlabel("Sweep Angle [degrees]")
     plt.ylabel("Drag coefficient")
     plt.title('Cd Value vs Sweep Angle')
     plt.legend()  # Add a legend
+    plt.grid(True)
     plt.show()
 
 plotAverages(averages)
@@ -111,7 +114,7 @@ def plotCdVsAngleV2(content, mach_values):
     plt.figure(figsize=(10, 8))  # Create a new figure
     sns.heatmap(df, cmap='hot', annot=True, fmt=".2f")
     plt.xlabel("Mach")
-    plt.ylabel("Sweep Angle")
+    plt.ylabel("Sweep Angle [degrees]")
     plt.title('Cd Value vs Sweep Angle and Mach')
     plt.show()
 

@@ -36,9 +36,10 @@ def plotAverages(averages):
 
     # Plot averages
     plt.plot(keys, values, 'o-')
-    plt.xlabel("Angle of Endcone")
-    plt.ylabel("Average Force value")
+    plt.xlabel("Angle of Endcone [degrees]")
+    plt.ylabel("Average Force value [N]")
     plt.title('Average values of Force vs Angle of endcone')
+    plt.grid(True)
     plt.show()
 
 
@@ -66,6 +67,7 @@ def plotExampleValues(content):
     plt.ylabel("Drag coefficient")
     plt.title('Cd Values for Different Angles of Endcone')
     plt.legend()  # Add a legend
+    plt.grid(True)
     plt.show()
 
 def plotCdVsAngle(content):
@@ -84,10 +86,11 @@ def plotCdVsAngle(content):
     plt.plot(y, x1, 'o-', label='Mach 0.2')
     plt.plot(y, x2, 'o-', label='Mach 0.4')
     plt.plot(y, x3, 'o-', label='Mach 0.6')
-    plt.xlabel("Angle of Endcone")
+    plt.xlabel("Angle of Endcone [degrees]")
     plt.ylabel("Drag coefficient")
     plt.title('Cd Value vs Angle of Endcone')
     plt.legend()  # Add a legend
+    plt.grid(True)
     plt.show()
 
 plotAverages(averages)
@@ -139,36 +142,38 @@ CompareEndconeYAndY8()
 
 
 def CompareNoEnconeYAndY12():
-    NoEnconeY = [0.524400388412621, 0.525676775960665, 0.516679370180853, 0.512793324549311, 0.512583409743801, 0.514490981639282, 0.518196961417704, 0.529854748184211]
-    for i in range(len(NoEnconeY)):
-        NoEnconeY[i] = NoEnconeY[i] - 0.1
+    NoEnconeY = [0.524400388412621, 0.525676775960665, 0.516679370180853, 0.512793324549311, 0.512583409743801, 0.514490981639282]
+    #for i in range(len(NoEnconeY)):
+     #   NoEnconeY[i] = NoEnconeY[i] - 0.1
 
     x9 = [0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8]
     x6 = [0.1, 0.2, 0.3, 0.4, 0.5, 0.6]
     y12 = [ForceToCD(float(content[i][2]), float(content[i][0])) for i in range(77, 71, -1)]
 
     plt.subplot(1, 2, 1)  # 1 row, 2 columns, first plot
-    plt.plot(x9, NoEnconeY, 'o-', label='NoEndcone -0.1 Cd value')
+    plt.plot(x6, NoEnconeY, 'o-', label='NoEndcone -0.1 Cd value')
     plt.plot(x6, y12, 'o-', label='Endcone 12 degrees')
     plt.xlabel("Mach number")
     plt.ylabel("Drag coefficient")
     plt.title('R6 NoEndcone trends')
     plt.legend()  # Add a legend
+    plt.grid(True)
 
 def CompareEndconeYAndY8():
-    EndconeY = [0.418919542823116, 0.4193379544368, 0.411070061311167, 0.406074799502895, 0.40139809734908, 0.399242315686303, 0.397011926120074, 0.396962392205453]
+    EndconeY = [0.418919542823116, 0.4193379544368, 0.411070061311167, 0.406074799502895, 0.40139809734908, 0.399242315686303]
 
     x9 = [0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8]
     x6 = [0.1, 0.2, 0.3, 0.4, 0.5, 0.6]
     y8 = [ForceToCD(float(content[i][2]), float(content[i][0])) for i in range(53, 47, -1)]
 
     plt.subplot(1, 2, 2)  # 1 row, 2 columns, second plot
-    plt.plot(x9, EndconeY, 'o-', label='Endcone')
+    plt.plot(x6, EndconeY, 'o-', label='Endcone')
     plt.plot(x6, y8, 'o-', label='Endcone 8 degrees')
     plt.xlabel("Mach number")
     plt.ylabel("Drag coefficient")
     plt.title('R6 Endcone trends')
     plt.legend()  # Add a legend
+    plt.grid(True)
 
 CompareNoEnconeYAndY12()
 CompareEndconeYAndY8()
@@ -184,6 +189,7 @@ def ShowANSYS():
     plt.xlabel("Angle of Endcone")
     plt.ylabel("Drag coefficient")
     plt.title('Values of Cd Value vs Angle of Endcone from ANSYS Fluent')
+    plt.grid(True)
     plt.show()
 
 ShowANSYS()
