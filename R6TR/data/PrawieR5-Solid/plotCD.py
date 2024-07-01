@@ -9,7 +9,7 @@ y.reverse()
 plt.plot(x, y, marker='o')
 plt.xlabel('Mach')
 plt.ylabel('Drag coefficient')
-plt.title('Drag coefficient vs Mach for PrawieR5')
+plt.title('Drag coefficient vs Mach for R5A')
 plt.grid(True)
 plt.show()
 
