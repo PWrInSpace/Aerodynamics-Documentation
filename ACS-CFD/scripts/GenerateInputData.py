@@ -26,6 +26,11 @@ if(Argument == "-h" or Argument =="--help"):
     print("-h or --help     help")
     print("-r               random")
     print("<noCommand>      product")
+    print()
+    print("Script for generation of input tables for parametric simulations")
+    print("Input: Sets or Number of random points with ranges")
+    print("Output: CSV file with Product of Sets or Random points")
+    exit()
 elif(Argument == "-r"):
     print("Number of parameters:")
     parametersNum = int(input())
