@@ -73,7 +73,7 @@ else:
 
 print(Output)
 
-Output.to_csv('output.csv', index=False)
+Output.to_csv('output.csv', index=False, decimal=',')
 
     
     
