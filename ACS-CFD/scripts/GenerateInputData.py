@@ -4,7 +4,7 @@
 # Input: Sets or Number of random points with ranges
 # Output: CSV file with Product of Sets or Random points
 
-from random import triangular
+from random import triangular, uniform
 import string
 import pandas as pd
 import itertools
@@ -24,14 +24,15 @@ if(Argument == "-h" or Argument =="--help"):
     print("Usage: python3 " + sys.argv[0] + " <command>")
     print("Commands:")
     print("-h or --help     help")
-    print("-r               random")
+    print("-rd              random gausian")
+    print("-ru              random uniform")
     print("<noCommand>      product")
     print()
     print("Script for generation of input tables for parametric simulations")
     print("Input: Sets or Number of random points with ranges")
     print("Output: CSV file with Product of Sets or Random points")
     exit()
-elif(Argument == "-r"):
+elif(Argument == "-rd"):
     print("Number of parameters:")
     parametersNum = int(input())
 
@@ -51,7 +52,31 @@ elif(Argument == "-r"):
             ColumnList.append(triangular(minVal, maxVal))
 
         Output[i] = ColumnList
+   
+
+elif(Argument == "-ru"):
+    print("Number of parameters:")
+    parametersNum = int(input())
+
+    print("Number of samples:")
+    samplesNum = int(input())
     
+    rangeTable = [[None for _ in range(parametersNum)] for _ in range(2)]
+
+    for i in range(parametersNum):
+        print("Range parameter " + str(i))
+        minVal = float(input())
+        maxVal = float(input())
+
+
+        ColumnList = []
+        for k in range(samplesNum):
+            ColumnList.append(uniform(minVal, maxVal))
+
+        Output[i] = ColumnList
+
+
+
 else: 
     print("Number of parameters:")
     parametersNum = int(input())
